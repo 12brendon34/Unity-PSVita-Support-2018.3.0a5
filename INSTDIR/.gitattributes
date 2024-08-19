@@ -1,0 +1,2 @@
+PSP2Player_Il2cpp.self filter=lfs diff=lfs merge=lfs -text
+PSP2Player_Mono.self filter=lfs diff=lfs merge=lfs -text
