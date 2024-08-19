@@ -1,0 +1,1783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items LongForm="false">
+  <item memberID="UnityEngine.PSVitaModule" alive="true" type="Assembly" isStatic="false" namespace="" versionAdded="2018.3.0">
+    <api>
+      <link ref="UnityEngine.PSVitaModule">UnityEngine.PSVitaModule</link>
+    </api>
+  </item>
+  <item memberID="PSVita.Diagnostics" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.Diagnostics">Diagnostics</link>
+    </api>
+  </item>
+  <item memberID="PSVita.Networking" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.Networking">Networking</link>
+    </api>
+  </item>
+  <item memberID="PSVita.PSVitaCamera" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.PSVitaCamera">PSVitaCamera</link>
+    </api>
+  </item>
+  <item memberID="PSVita.PSVitaDRM" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.PSVitaDRM">PSVitaDRM</link>
+    </api>
+  </item>
+  <item memberID="PSVita.PSVitaInput" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.PSVitaInput">PSVitaInput</link>
+    </api>
+  </item>
+  <item memberID="PSVita.PSVitaPlayerPrefs" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.PSVitaPlayerPrefs">PSVitaPlayerPrefs</link>
+    </api>
+  </item>
+  <item memberID="PSVita.PSVitaVideoPlayer" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.PSVitaVideoPlayer">PSVitaVideoPlayer</link>
+    </api>
+  </item>
+  <item memberID="PSVita.Utility" alive="true" type="Class" isStatic="false" namespace="UnityEngine.PSVita" versionAdded="2018.3.0">
+    <api>
+      <link ref="PSVita.Utility">Utility</link>
+    </api>
+  </item>
+  <item memberID="Array" alive="true" type="Class" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Array">Array</link>
+    </api>
+  </item>
+  <item memberID="Array._length" alive="false" type="Property" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.length]]></api>
+  </item>
+  <item memberID="Array.Add" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Add]]></api>
+  </item>
+  <item memberID="Array.Clear" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Clear]]></api>
+  </item>
+  <item memberID="Array.Concat" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Concat]]></api>
+  </item>
+  <item memberID="Array.ctor" alive="false" type="Constructor" isStatic="false" namespace="" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.ctor]]></api>
+  </item>
+  <item memberID="Array.Join" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Join]]></api>
+  </item>
+  <item memberID="Array.Pop" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Pop]]></api>
+  </item>
+  <item memberID="Array.Push" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Push]]></api>
+  </item>
+  <item memberID="Array.RemoveAt" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.RemoveAt]]></api>
+  </item>
+  <item memberID="Array.Shift" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Shift]]></api>
+  </item>
+  <item memberID="Array.Sort" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Sort]]></api>
+  </item>
+  <item memberID="Array.Unshift" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Array.Unshift]]></api>
+  </item>
+  <item memberID="AssetModificationProcessor.IsOpenForEdit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetModificationProcessor.IsOpenForEdit]]></api>
+  </item>
+  <item memberID="AssetModificationProcessor.OnWillCreateAsset" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetModificationProcessor.OnWillCreateAsset]]></api>
+  </item>
+  <item memberID="AssetModificationProcessor.OnWillDeleteAsset" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetModificationProcessor.OnWillDeleteAsset]]></api>
+  </item>
+  <item memberID="AssetModificationProcessor.OnWillMoveAsset" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetModificationProcessor.OnWillMoveAsset]]></api>
+  </item>
+  <item memberID="AssetModificationProcessor.OnWillSaveAssets" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetModificationProcessor.OnWillSaveAssets]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnAssignMaterialModel" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnAssignMaterialModel]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPostprocessAllAssets" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPostprocessAllAssets]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPostprocessAudio" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPostprocessAudio]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPostprocessGameObjectWithUserProperties" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPostprocessGameObjectWithUserProperties]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPostprocessModel" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPostprocessModel]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPostprocessTexture" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPostprocessTexture]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPreprocessAudio" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPreprocessAudio]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPreprocessModel" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPreprocessModel]]></api>
+  </item>
+  <item memberID="AssetPostprocessor.OnPreprocessTexture" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[AssetPostprocessor.OnPreprocessTexture]]></api>
+  </item>
+  <item memberID="Camera.OnPostRender" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Camera.OnPostRender]]></api>
+  </item>
+  <item memberID="Camera.OnPreCull" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Camera.OnPreCull]]></api>
+  </item>
+  <item memberID="Camera.OnPreRender" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Camera.OnPreRender]]></api>
+  </item>
+  <item memberID="Camera.OnRenderImage" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Camera.OnRenderImage]]></api>
+  </item>
+  <item memberID="Camera.OnRenderObject" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[Camera.OnRenderObject]]></api>
+  </item>
+  <item memberID="Camera.OnWillRenderObject" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Camera.OnWillRenderObject]]></api>
+  </item>
+  <item memberID="CharacterController.OnControllerColliderHit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[CharacterController.OnControllerColliderHit]]></api>
+  </item>
+  <item memberID="Collider.OnCollisionEnter" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Collider.OnCollisionEnter]]></api>
+  </item>
+  <item memberID="Collider.OnCollisionExit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Collider.OnCollisionExit]]></api>
+  </item>
+  <item memberID="Collider.OnCollisionStay" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Collider.OnCollisionStay]]></api>
+  </item>
+  <item memberID="Collider.OnTriggerEnter" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Collider.OnTriggerEnter]]></api>
+  </item>
+  <item memberID="Collider.OnTriggerExit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Collider.OnTriggerExit]]></api>
+  </item>
+  <item memberID="Collider.OnTriggerStay" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Collider.OnTriggerStay]]></api>
+  </item>
+  <item memberID="Editor.OnSceneGUI" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Editor.OnSceneGUI]]></api>
+  </item>
+  <item memberID="EditorWindow.OnDestroy" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnDestroy]]></api>
+  </item>
+  <item memberID="EditorWindow.OnFocus" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnFocus]]></api>
+  </item>
+  <item memberID="EditorWindow.OnGUI" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnGUI]]></api>
+  </item>
+  <item memberID="EditorWindow.OnHierarchyChange" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnHierarchyChange]]></api>
+  </item>
+  <item memberID="EditorWindow.OnInspectorUpdate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnInspectorUpdate]]></api>
+  </item>
+  <item memberID="EditorWindow.OnLostFocus" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnLostFocus]]></api>
+  </item>
+  <item memberID="EditorWindow.OnProjectChange" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnProjectChange]]></api>
+  </item>
+  <item memberID="EditorWindow.OnSelectionChange" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.OnSelectionChange]]></api>
+  </item>
+  <item memberID="EditorWindow.Update" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorWindow.Update]]></api>
+  </item>
+  <item memberID="Hashtable" alive="true" type="Class" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Hashtable">Hashtable</link>
+    </api>
+  </item>
+  <item memberID="Hashtable.Add" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.Add]]></api>
+  </item>
+  <item memberID="Hashtable.Clear" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.Clear]]></api>
+  </item>
+  <item memberID="Hashtable.Contains" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.Contains]]></api>
+  </item>
+  <item memberID="Hashtable.ContainsKey" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.ContainsKey]]></api>
+  </item>
+  <item memberID="Hashtable.ContainsValue" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.ContainsValue]]></api>
+  </item>
+  <item memberID="Hashtable.Count" alive="false" type="Property" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.Count]]></api>
+  </item>
+  <item memberID="Hashtable.Remove" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Hashtable.Remove]]></api>
+  </item>
+  <item memberID="Joint.OnJointBreak" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Joint.OnJointBreak]]></api>
+  </item>
+  <item memberID="MasterServer.OnFailedToConnectToMasterServer" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.4.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MasterServer.OnFailedToConnectToMasterServer]]></api>
+  </item>
+  <item memberID="MasterServer.OnMasterServerEvent" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.4.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MasterServer.OnMasterServerEvent]]></api>
+  </item>
+  <item memberID="MonoBehaviour.Awake" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.Awake]]></api>
+  </item>
+  <item memberID="MonoBehaviour.FixedUpdate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.FixedUpdate]]></api>
+  </item>
+  <item memberID="MonoBehaviour.LateUpdate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.LateUpdate]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnAnimatorIK" alive="false" type="Method" isStatic="false" namespace="" versionAdded="4.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnAnimatorIK]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnAnimatorMove" alive="false" type="Method" isStatic="false" namespace="" versionAdded="4.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnAnimatorMove]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnApplicationFocus" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnApplicationFocus]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnApplicationPause" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnApplicationPause]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnApplicationQuit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnApplicationQuit]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnAudioFilterRead" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnAudioFilterRead]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnBecameInvisible" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnBecameInvisible]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnBecameVisible" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnBecameVisible]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnCollisionEnter" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnCollisionEnter]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnCollisionExit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnCollisionExit]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnCollisionStay" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnCollisionStay]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnConnectedToServer" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnConnectedToServer]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnControllerColliderHit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnControllerColliderHit]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnDestroy" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnDestroy]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnDisable" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnDisable]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnDisconnectedFromServer" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnDisconnectedFromServer]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnDrawGizmos" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnDrawGizmos]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnDrawGizmosSelected" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnDrawGizmosSelected]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnEnable" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnEnable]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnFailedToConnect" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnFailedToConnect]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnFailedToConnectToMasterServer" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnFailedToConnectToMasterServer]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnGUI" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnGUI]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnJointBreak" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnJointBreak]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMasterServerEvent" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMasterServerEvent]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseDown" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseDown]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseDrag" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseDrag]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseEnter" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseEnter]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseExit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseExit]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseOver" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseOver]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseUp" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseUp]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnMouseUpAsButton" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.4.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnMouseUpAsButton]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnNetworkInstantiate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnNetworkInstantiate]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnParticleCollision" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnParticleCollision]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnPlayerConnected" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnPlayerConnected]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnPlayerDisconnected" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnPlayerDisconnected]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnPostRender" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnPostRender]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnPreCull" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnPreCull]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnPreRender" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnPreRender]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnRenderImage" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnRenderImage]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnRenderObject" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnRenderObject]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnSerializeNetworkView" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnSerializeNetworkView]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnServerInitialized" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnServerInitialized]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnTriggerEnter" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnTriggerEnter]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnTriggerExit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnTriggerExit]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnTriggerStay" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnTriggerStay]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnWillRenderObject" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.OnWillRenderObject]]></api>
+  </item>
+  <item memberID="MonoBehaviour.Reset" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.Reset]]></api>
+  </item>
+  <item memberID="MonoBehaviour.Start" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.Start]]></api>
+  </item>
+  <item memberID="MonoBehaviour.Update" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[MonoBehaviour.Update]]></api>
+  </item>
+  <item memberID="Network.OnConnectedToServer" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnConnectedToServer]]></api>
+  </item>
+  <item memberID="Network.OnDisconnectedFromServer" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnDisconnectedFromServer]]></api>
+  </item>
+  <item memberID="Network.OnFailedToConnect" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnFailedToConnect]]></api>
+  </item>
+  <item memberID="Network.OnNetworkInstantiate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnNetworkInstantiate]]></api>
+  </item>
+  <item memberID="Network.OnPlayerConnected" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnPlayerConnected]]></api>
+  </item>
+  <item memberID="Network.OnPlayerDisconnected" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnPlayerDisconnected]]></api>
+  </item>
+  <item memberID="Network.OnSerializeNetworkView" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnSerializeNetworkView]]></api>
+  </item>
+  <item memberID="Network.OnServerInitialized" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Network.OnServerInitialized]]></api>
+  </item>
+  <item memberID="NonSerialized" alive="true" type="Class" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NonSerialized">NonSerialized</link>
+    </api>
+  </item>
+  <item memberID="Path" alive="true" type="Class" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Path">Path</link>
+    </api>
+  </item>
+  <item memberID="Path.AltDirectorySeparatorChar" alive="false" type="Property" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.AltDirectorySeparatorChar]]></api>
+  </item>
+  <item memberID="Path.Combine" alive="false" type="Method" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.Combine]]></api>
+  </item>
+  <item memberID="Path.DirectorySeparatorChar" alive="false" type="Property" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.DirectorySeparatorChar]]></api>
+  </item>
+  <item memberID="Path.GetDirectoryName" alive="false" type="Method" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.GetDirectoryName]]></api>
+  </item>
+  <item memberID="Path.GetExtension" alive="false" type="Method" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.GetExtension]]></api>
+  </item>
+  <item memberID="Path.GetFileName" alive="false" type="Method" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.GetFileName]]></api>
+  </item>
+  <item memberID="Path.GetFileNameWithoutExtension" alive="false" type="Method" isStatic="true" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Path.GetFileNameWithoutExtension]]></api>
+  </item>
+  <item memberID="Renderer.OnBecameInvisible" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Renderer.OnBecameInvisible]]></api>
+  </item>
+  <item memberID="Renderer.OnBecameVisible" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Renderer.OnBecameVisible]]></api>
+  </item>
+  <item memberID="Rigidbody.OnCollisionEnter" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Rigidbody.OnCollisionEnter]]></api>
+  </item>
+  <item memberID="Rigidbody.OnCollisionExit" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Rigidbody.OnCollisionExit]]></api>
+  </item>
+  <item memberID="Rigidbody.OnCollisionStay" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[Rigidbody.OnCollisionStay]]></api>
+  </item>
+  <item memberID="ScriptableObject.OnDestroy" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api><![CDATA[ScriptableObject.OnDestroy]]></api>
+  </item>
+  <item memberID="ScriptableObject.OnDisable" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[ScriptableObject.OnDisable]]></api>
+  </item>
+  <item memberID="ScriptableObject.OnEnable" alive="false" type="Method" isStatic="false" namespace="" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[ScriptableObject.OnEnable]]></api>
+  </item>
+  <item memberID="ScriptableWizard.OnWizardCreate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[ScriptableWizard.OnWizardCreate]]></api>
+  </item>
+  <item memberID="ScriptableWizard.OnWizardOtherButton" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[ScriptableWizard.OnWizardOtherButton]]></api>
+  </item>
+  <item memberID="ScriptableWizard.OnWizardUpdate" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[ScriptableWizard.OnWizardUpdate]]></api>
+  </item>
+  <item memberID="Serializable" alive="true" type="Class" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Serializable">Serializable</link>
+    </api>
+  </item>
+  <item memberID="String" alive="true" type="Class" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="String">String</link>
+    </api>
+  </item>
+  <item memberID="String.Length" alive="false" type="Property" isStatic="false" namespace="" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api><![CDATA[String.Length]]></api>
+  </item>
+  <item memberID="DrawCameraMode.LightmapResolution" alive="true" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="DrawCameraMode.LightmapResolution">DrawCameraMode.DrawCameraMode</link>
+    </api>
+  </item>
+  <item memberID="EditorUserBuildSettings._appendProject" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api><![CDATA[EditorUserBuildSettings.appendProject]]></api>
+  </item>
+  <item memberID="EditorUserBuildSettings._webPlayerOfflineDeployment" alive="true" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="EditorUserBuildSettings-webPlayerOfflineDeployment">EditorUserBuildSettings.webPlayerOfflineDeployment</link>
+    </api>
+  </item>
+  <item memberID="EditorUserBuildSettings._webPlayerStreamed" alive="true" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="EditorUserBuildSettings-webPlayerStreamed">EditorUserBuildSettings.webPlayerStreamed</link>
+    </api>
+  </item>
+  <item memberID="EditorUserBuildSettings._xboxRunMethod" alive="true" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="EditorUserBuildSettings-xboxRunMethod">EditorUserBuildSettings.xboxRunMethod</link>
+    </api>
+  </item>
+  <item memberID="PlayerSettings._psp2BackgroundPath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2BackgroundPath]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2DLCConfigPath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2DLCConfigPath]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2NPCommsID" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2NPCommsID]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2NPCommsPassphrase" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2NPCommsPassphrase]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2NPCommsSig" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2NPCommsSig]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2NPTrophyPackPath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2NPTrophyPackPath]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2PackagePassword" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2PackagePassword]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2ParamSfxPath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2ParamSfxPath]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2SoundPath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2SoundPath]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2ThumbnailPath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2ThumbnailPath]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2TrophyCommId" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2TrophyCommId]]></api>
+  </item>
+  <item memberID="PlayerSettings._psp2TrophyPackagePath" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.psp2TrophyPackagePath]]></api>
+  </item>
+  <item memberID="PlayerSettings._stripPhysics" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[PlayerSettings.stripPhysics]]></api>
+  </item>
+  <item memberID="Application._isWebPlayer" alive="true" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Application-isWebPlayer">Application.isWebPlayer</link>
+    </api>
+  </item>
+  <item memberID="Application._srcValue" alive="true" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Application-srcValue">Application.srcValue</link>
+    </api>
+  </item>
+  <item memberID="AudioReverbFilter._roomRolloff" alive="true" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="AudioReverbFilter-roomRolloff">AudioReverbFilter.roomRolloff</link>
+    </api>
+  </item>
+  <item memberID="Caching._enabled" alive="true" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Caching-enabled">Caching.enabled</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.Error" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.Error">ConnectionTesterStatus.Error</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.LimitedNATPunchthroughPortRestricted" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.LimitedNATPunchthroughPortRestricted">ConnectionTesterStatus.LimitedNATPunchthroughPortRestricted</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.LimitedNATPunchthroughSymmetric" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.LimitedNATPunchthroughSymmetric">ConnectionTesterStatus.LimitedNATPunchthroughSymmetric</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.NATpunchthroughAddressRestrictedCone" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.NATpunchthroughAddressRestrictedCone">ConnectionTesterStatus.NATpunchthroughAddressRestrictedCone</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.NATpunchthroughFullCone" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.NATpunchthroughFullCone">ConnectionTesterStatus.NATpunchthroughFullCone</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.PublicIPIsConnectable" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.PublicIPIsConnectable">ConnectionTesterStatus.PublicIPIsConnectable</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.PublicIPNoServerStarted" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.PublicIPNoServerStarted">ConnectionTesterStatus.PublicIPNoServerStarted</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.PublicIPPortBlocked" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.PublicIPPortBlocked">ConnectionTesterStatus.PublicIPPortBlocked</link>
+    </api>
+  </item>
+  <item memberID="ConnectionTesterStatus.Undetermined" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="ConnectionTesterStatus.Undetermined">ConnectionTesterStatus.Undetermined</link>
+    </api>
+  </item>
+  <item memberID="LODGroup.SetLODS" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="4.0.0" versionRemoved="2018.3.0">
+    <api><![CDATA[LODGroup.SetLODS]]></api>
+  </item>
+  <item memberID="MasterServerEvent.HostListReceived" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="MasterServerEvent.HostListReceived">MasterServerEvent.HostListReceived</link>
+    </api>
+  </item>
+  <item memberID="MasterServerEvent.RegistrationFailedGameName" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="MasterServerEvent.RegistrationFailedGameName">MasterServerEvent.RegistrationFailedGameName</link>
+    </api>
+  </item>
+  <item memberID="MasterServerEvent.RegistrationFailedGameType" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="MasterServerEvent.RegistrationFailedGameType">MasterServerEvent.RegistrationFailedGameType</link>
+    </api>
+  </item>
+  <item memberID="MasterServerEvent.RegistrationFailedNoServer" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="MasterServerEvent.RegistrationFailedNoServer">MasterServerEvent.RegistrationFailedNoServer</link>
+    </api>
+  </item>
+  <item memberID="MasterServerEvent.RegistrationSucceeded" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="MasterServerEvent.RegistrationSucceeded">MasterServerEvent.RegistrationSucceeded</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.AlreadyConnectedToAnotherServer" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.AlreadyConnectedToAnotherServer">NetworkConnectionError.AlreadyConnectedToAnotherServer</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.AlreadyConnectedToServer" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.4.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.AlreadyConnectedToServer">NetworkConnectionError.AlreadyConnectedToServer</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.ConnectionBanned" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.ConnectionBanned">NetworkConnectionError.ConnectionBanned</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.ConnectionFailed" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.ConnectionFailed">NetworkConnectionError.ConnectionFailed</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.CreateSocketOrThreadFailure" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.CreateSocketOrThreadFailure">NetworkConnectionError.CreateSocketOrThreadFailure</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.EmptyConnectTarget" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.EmptyConnectTarget">NetworkConnectionError.EmptyConnectTarget</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.IncorrectParameters" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.IncorrectParameters">NetworkConnectionError.IncorrectParameters</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.InternalDirectConnectFailed" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.InternalDirectConnectFailed">NetworkConnectionError.InternalDirectConnectFailed</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.InvalidPassword" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.InvalidPassword">NetworkConnectionError.InvalidPassword</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.NATPunchthroughFailed" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.2.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.NATPunchthroughFailed">NetworkConnectionError.NATPunchthroughFailed</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.NATTargetConnectionLost" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.NATTargetConnectionLost">NetworkConnectionError.NATTargetConnectionLost</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.NATTargetNotConnected" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.NATTargetNotConnected">NetworkConnectionError.NATTargetNotConnected</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.NoError" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.NoError">NetworkConnectionError.NoError</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.RSAPublicKeyMismatch" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.RSAPublicKeyMismatch">NetworkConnectionError.RSAPublicKeyMismatch</link>
+    </api>
+  </item>
+  <item memberID="NetworkConnectionError.TooManyConnectedPlayers" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkConnectionError.TooManyConnectedPlayers">NetworkConnectionError.TooManyConnectedPlayers</link>
+    </api>
+  </item>
+  <item memberID="NetworkDisconnection.Disconnected" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkDisconnection.Disconnected">NetworkDisconnection.Disconnected</link>
+    </api>
+  </item>
+  <item memberID="NetworkDisconnection.LostConnection" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkDisconnection.LostConnection">NetworkDisconnection.LostConnection</link>
+    </api>
+  </item>
+  <item memberID="NetworkLogLevel.Full" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkLogLevel.Full">NetworkLogLevel.Full</link>
+    </api>
+  </item>
+  <item memberID="NetworkLogLevel.Informational" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkLogLevel.Informational">NetworkLogLevel.Informational</link>
+    </api>
+  </item>
+  <item memberID="NetworkLogLevel.Off" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkLogLevel.Off">NetworkLogLevel.Off</link>
+    </api>
+  </item>
+  <item memberID="NetworkPeerType.Client" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPeerType.Client">NetworkPeerType.Client</link>
+    </api>
+  </item>
+  <item memberID="NetworkPeerType.Connecting" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPeerType.Connecting">NetworkPeerType.Connecting</link>
+    </api>
+  </item>
+  <item memberID="NetworkPeerType.Disconnected" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPeerType.Disconnected">NetworkPeerType.Disconnected</link>
+    </api>
+  </item>
+  <item memberID="NetworkPeerType.Server" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPeerType.Server">NetworkPeerType.Server</link>
+    </api>
+  </item>
+  <item memberID="NetworkPlayer.op_Equal" alive="true" type="Operator" isStatic="true" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPlayer-operator_eq">NetworkPlayer.operator ==</link>
+    </api>
+  </item>
+  <item memberID="NetworkPlayer.op_NotEqual" alive="true" type="Operator" isStatic="true" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPlayer-operator_ne">NetworkPlayer.operator !=</link>
+    </api>
+  </item>
+  <item memberID="NetworkPlayer.ToString" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkPlayer.ToString">NetworkPlayer.ToString</link>
+    </api>
+  </item>
+  <item memberID="NetworkStateSynchronization.Off" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkStateSynchronization.Off">NetworkStateSynchronization.Off</link>
+    </api>
+  </item>
+  <item memberID="NetworkStateSynchronization.ReliableDeltaCompressed" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkStateSynchronization.ReliableDeltaCompressed">NetworkStateSynchronization.ReliableDeltaCompressed</link>
+    </api>
+  </item>
+  <item memberID="NetworkStateSynchronization.Unreliable" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkStateSynchronization.Unreliable">NetworkStateSynchronization.Unreliable</link>
+    </api>
+  </item>
+  <item memberID="NetworkView.Find" alive="true" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkView.Find">NetworkView.Find</link>
+    </api>
+  </item>
+  <item memberID="NetworkView.SetScope" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkView.SetScope">NetworkView.SetScope</link>
+    </api>
+  </item>
+  <item memberID="NetworkViewID.op_Equal" alive="true" type="Operator" isStatic="true" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkViewID-operator_eq">NetworkViewID.operator ==</link>
+    </api>
+  </item>
+  <item memberID="NetworkViewID.op_NotEqual" alive="true" type="Operator" isStatic="true" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkViewID-operator_ne">NetworkViewID.operator !=</link>
+    </api>
+  </item>
+  <item memberID="NetworkViewID.ToString" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NetworkViewID.ToString">NetworkViewID.ToString</link>
+    </api>
+  </item>
+  <item memberID="NotConvertedAttribute" alive="true" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NotConvertedAttribute">NotConvertedAttribute</link>
+    </api>
+  </item>
+  <item memberID="NotFlashValidatedAttribute" alive="true" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="4.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NotFlashValidatedAttribute">NotFlashValidatedAttribute</link>
+    </api>
+  </item>
+  <item memberID="NotRenamedAttribute" alive="true" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="NotRenamedAttribute">NotRenamedAttribute</link>
+    </api>
+  </item>
+  <item memberID="RPCMode.All" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="RPCMode.All">RPCMode.All</link>
+    </api>
+  </item>
+  <item memberID="RPCMode.AllBuffered" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="RPCMode.AllBuffered">RPCMode.AllBuffered</link>
+    </api>
+  </item>
+  <item memberID="RPCMode.Others" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="RPCMode.Others">RPCMode.Others</link>
+    </api>
+  </item>
+  <item memberID="RPCMode.OthersBuffered" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="RPCMode.OthersBuffered">RPCMode.OthersBuffered</link>
+    </api>
+  </item>
+  <item memberID="RPCMode.Server" alive="true" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="RPCMode.Server">RPCMode.Server</link>
+    </api>
+  </item>
+  <item memberID="Texture2D.EncodeToJPG" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="4.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Texture2D.EncodeToJPG">Texture2D.EncodeToJPG</link>
+    </api>
+  </item>
+  <item memberID="Texture2D.EncodeToPNG" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Texture2D.EncodeToPNG">Texture2D.EncodeToPNG</link>
+    </api>
+  </item>
+  <item memberID="Texture2D.LoadImage" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="2.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="Texture2D.LoadImage">Texture2D.LoadImage</link>
+    </api>
+  </item>
+  <item memberID="WWW.LoadUnityWeb" alive="true" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="1.x.x" versionRemoved="2018.3.0">
+    <api>
+      <link ref="WWW.LoadUnityWeb">WWW.LoadUnityWeb</link>
+    </api>
+  </item>
+  <item memberID="SocialPlatforms.GameCenter.GameCenterPlatform" alive="true" type="Class" isStatic="false" namespace="UnityEngine.SocialPlatforms.GameCenter" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="SocialPlatforms.GameCenter.GameCenterPlatform">GameCenterPlatform</link>
+    </api>
+  </item>
+  <item memberID="SocialPlatforms.GameCenter.GameCenterPlatform.ResetAllAchievements" alive="true" type="Method" isStatic="true" namespace="UnityEngine.SocialPlatforms.GameCenter" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="SocialPlatforms.GameCenter.GameCenterPlatform.ResetAllAchievements">GameCenterPlatform.ResetAllAchievements</link>
+    </api>
+  </item>
+  <item memberID="SocialPlatforms.GameCenter.GameCenterPlatform.ShowDefaultAchievementCompletionBanner" alive="true" type="Method" isStatic="true" namespace="UnityEngine.SocialPlatforms.GameCenter" versionAdded="3.5.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="SocialPlatforms.GameCenter.GameCenterPlatform.ShowDefaultAchievementCompletionBanner">GameCenterPlatform.ShowDefaultAchievementCompletionBanner</link>
+    </api>
+  </item>
+  <item memberID="SocialPlatforms.GameCenter.GameCenterPlatform.ShowLeaderboardUI" alive="true" type="Method" isStatic="true" namespace="UnityEngine.SocialPlatforms.GameCenter" versionAdded="4.0.0" versionRemoved="2018.3.0">
+    <api>
+      <link ref="SocialPlatforms.GameCenter.GameCenterPlatform.ShowLeaderboardUI">GameCenterPlatform.ShowLeaderboardUI</link>
+    </api>
+  </item>
+  <item memberID="iPhoneArchitecture" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="4.6.0">
+    <api><![CDATA[iPhoneArchitecture]]></api>
+  </item>
+  <item memberID="PlayerSettings._d3d11ForceExclusiveMode" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.6.0">
+    <api><![CDATA[PlayerSettings.d3d11ForceExclusiveMode]]></api>
+  </item>
+  <item memberID="PlayerSettings._shortBundleVersion" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.6.0">
+    <api><![CDATA[PlayerSettings.shortBundleVersion]]></api>
+  </item>
+  <item memberID="PlayerSettings.WP8" alive="false" type="Class" isStatic="false" namespace="UnityEditor" versionAdded="4.6.0">
+    <api><![CDATA[PlayerSettings.WP8]]></api>
+  </item>
+  <item memberID="iPhoneGeneration._iPadAir2" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.6.0">
+    <api><![CDATA[iPhoneGeneration.iPadAir2]]></api>
+  </item>
+  <item memberID="iPhoneGeneration._iPadMini3Gen" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.6.0">
+    <api><![CDATA[iPhoneGeneration.iPadMini3Gen]]></api>
+  </item>
+  <item memberID="iPhoneGeneration._iPhone6" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.6.0">
+    <api><![CDATA[iPhoneGeneration.iPhone6]]></api>
+  </item>
+  <item memberID="iPhoneGeneration._iPhone6Plus" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.6.0">
+    <api><![CDATA[iPhoneGeneration.iPhone6Plus]]></api>
+  </item>
+  <item memberID="LocalNotificationType" alive="false" type="Enum" isStatic="false" namespace="UnityEngine" versionAdded="4.6.0">
+    <api><![CDATA[LocalNotificationType]]></api>
+  </item>
+  <item memberID="NotificationServices.RegisterForLocalNotificationTypes" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="4.6.0">
+    <api><![CDATA[NotificationServices.RegisterForLocalNotificationTypes]]></api>
+  </item>
+  <item memberID="WindowsPhone.Media" alive="false" type="Class" isStatic="false" namespace="UnityEngine.WindowsPhone" versionAdded="4.6.0">
+    <api><![CDATA[WindowsPhone.Media]]></api>
+  </item>
+  <item memberID="AssemblyHelper.FindLoadedAssemblyWithName" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[AssemblyHelper.FindLoadedAssemblyWithName]]></api>
+  </item>
+  <item memberID="AssemblyHelper.IsTypeInEditorAssembly" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[AssemblyHelper.IsTypeInEditorAssembly]]></api>
+  </item>
+  <item memberID="EditorUserBuildSettings._metroGenerateReferenceProjects" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[EditorUserBuildSettings.metroGenerateReferenceProjects]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._defaultTileSize" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.defaultTileSize]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._enableIndependentInputSource" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.enableIndependentInputSource]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._enableLowLatencyPresentationAPI" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.enableLowLatencyPresentationAPI]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._largeTile" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.largeTile]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._largeTile140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.largeTile140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._largeTile180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.largeTile180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._largeTile80" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.largeTile80]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._largeTileShowName" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.largeTileShowName]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._mediumTileShowName" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.mediumTileShowName]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._packageLogo140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.packageLogo140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._packageLogo180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.packageLogo180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._smallTile" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.smallTile]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._smallTile140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.smallTile140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._smallTile180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.smallTile180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._smallTile80" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.smallTile80]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._splashScreenImageScale140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.splashScreenImageScale140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._splashScreenImageScale180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.splashScreenImageScale180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileLogo140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileLogo140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileLogo180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileLogo180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileLogo80" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileLogo80]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileSmallLogo140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileSmallLogo140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileSmallLogo180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileSmallLogo180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileSmallLogo80" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileSmallLogo80]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileWideLogo140" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileWideLogo140]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileWideLogo180" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileWideLogo180]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._tileWideLogo80" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.tileWideLogo80]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._unprocessedPlugins" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.unprocessedPlugins]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._wideTileShowName" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.Metro.wideTileShowName]]></api>
+  </item>
+  <item memberID="PlayerSettings.MetroCompilationOverrides.UseNetCorePartially" alive="false" type="EnumValue" isStatic="true" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.MetroCompilationOverrides.UseNetCorePartially]]></api>
+  </item>
+  <item memberID="PlayerSettings.MetroDefaultTileSize" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[PlayerSettings.MetroDefaultTileSize]]></api>
+  </item>
+  <item memberID="WebScriptObject" alive="false" type="Class" isStatic="false" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[WebScriptObject]]></api>
+  </item>
+  <item memberID="WebView" alive="false" type="Class" isStatic="false" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[WebView]]></api>
+  </item>
+  <item memberID="XboxOneRunMethod" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="4.5.0">
+    <api><![CDATA[XboxOneRunMethod]]></api>
+  </item>
+  <item memberID="iPhoneGeneration._iPad5Gen" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.5.0">
+    <api><![CDATA[iPhoneGeneration.iPad5Gen]]></api>
+  </item>
+  <item memberID="iPhoneGeneration._iPadMini2Gen" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.5.0">
+    <api><![CDATA[iPhoneGeneration.iPadMini2Gen]]></api>
+  </item>
+  <item memberID="RuntimePlatform.PSMPlayer" alive="false" type="EnumValue" isStatic="true" namespace="UnityEngine" versionAdded="4.5.0">
+    <api><![CDATA[RuntimePlatform.PSMPlayer]]></api>
+  </item>
+  <item memberID="SamsungTV" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="4.5.0">
+    <api><![CDATA[SamsungTV]]></api>
+  </item>
+  <item memberID="TextWrapMode" alive="false" type="Enum" isStatic="false" namespace="UnityEngine" versionAdded="4.5.0">
+    <api><![CDATA[TextWrapMode]]></api>
+  </item>
+  <item memberID="UIRenderer" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="4.5.0">
+    <api><![CDATA[UIRenderer]]></api>
+  </item>
+  <item memberID="ColorTween.ColorTweenCallback" alive="false" type="Class" isStatic="false" namespace="UnityEngine.CoroutineTween" versionAdded="4.5.0">
+    <api><![CDATA[ColorTween.ColorTweenCallback]]></api>
+  </item>
+  <item memberID="ColorTween.ColorTweenMode" alive="false" type="Enum" isStatic="false" namespace="UnityEngine.CoroutineTween" versionAdded="4.5.0">
+    <api><![CDATA[ColorTween.ColorTweenMode]]></api>
+  </item>
+  <item memberID="CoroutineTween.ColorTween" alive="false" type="Struct" isStatic="false" namespace="UnityEngine.CoroutineTween" versionAdded="4.5.0">
+    <api><![CDATA[CoroutineTween.ColorTween]]></api>
+  </item>
+  <item memberID="CoroutineTween.ITweenValue" alive="false" type="Interface" isStatic="false" namespace="UnityEngine.CoroutineTween" versionAdded="4.5.0">
+    <api><![CDATA[CoroutineTween.ITweenValue]]></api>
+  </item>
+  <item memberID="CoroutineTween.TweenRunner_1" alive="false" type="Class" isStatic="false" namespace="UnityEngine.CoroutineTween" versionAdded="4.5.0">
+    <api><![CDATA[CoroutineTween.TweenRunner_1]]></api>
+  </item>
+  <item memberID="AssemblyHelper.IsInternalAssembly" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[AssemblyHelper.IsInternalAssembly]]></api>
+  </item>
+  <item memberID="AssemblyHelper.IsManagedAssembly" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[AssemblyHelper.IsManagedAssembly]]></api>
+  </item>
+  <item memberID="EditorUserBuildSettings._metroSDK" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[EditorUserBuildSettings.metroSDK]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot5" alive="false" type="EnumValue" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot5]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot6" alive="false" type="EnumValue" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot6]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot7" alive="false" type="EnumValue" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot7]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot8" alive="false" type="EnumValue" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot8]]></api>
+  </item>
+  <item memberID="GameObjectUtility.DeoptimizeTransformHierarchy" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[GameObjectUtility.DeoptimizeTransformHierarchy]]></api>
+  </item>
+  <item memberID="GameObjectUtility.OptimizeTransformHierarchy" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[GameObjectUtility.OptimizeTransformHierarchy]]></api>
+  </item>
+  <item memberID="MetroSDK" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[MetroSDK]]></api>
+  </item>
+  <item memberID="SearchFilter._searchArea" alive="false" type="Property" isStatic="false" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[SearchFilter.searchArea]]></api>
+  </item>
+  <item memberID="TextureImportInstructions" alive="false" type="Class" isStatic="false" namespace="UnityEditor" versionAdded="4.3.0">
+    <api><![CDATA[TextureImportInstructions]]></api>
+  </item>
+  <item memberID="Packer.Execution" alive="false" type="Enum" isStatic="false" namespace="UnityEditor.Sprites" versionAdded="4.3.0">
+    <api><![CDATA[Packer.Execution]]></api>
+  </item>
+  <item memberID="iPhone.NSError" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="4.3.0">
+    <api><![CDATA[iPhone.NSError]]></api>
+  </item>
+  <item memberID="iPhone.NSNotification" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="4.3.0">
+    <api><![CDATA[iPhone.NSNotification]]></api>
+  </item>
+  <item memberID="TerrainData._physicMaterial" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="4.3.0">
+    <api><![CDATA[TerrainData.physicMaterial]]></api>
+  </item>
+  <item memberID="AssemblyHelper.CheckForAssemblyFileNameMismatch" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="4.2.0">
+    <api><![CDATA[AssemblyHelper.CheckForAssemblyFileNameMismatch]]></api>
+  </item>
+  <item memberID="BlackBerryBuildSubtarget" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="4.2.0">
+    <api><![CDATA[BlackBerryBuildSubtarget]]></api>
+  </item>
+  <item memberID="BuildTargetGroup.BB10" alive="false" type="EnumValue" isStatic="true" namespace="UnityEditor" versionAdded="4.2.0">
+    <api><![CDATA[BuildTargetGroup.BB10]]></api>
+  </item>
+  <item memberID="EditorUserBuildSettings._selectedMetroTarget" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.2.0">
+    <api><![CDATA[EditorUserBuildSettings.selectedMetroTarget]]></api>
+  </item>
+  <item memberID="PlayerSettings.Metro._compilationOverrides" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="4.2.0">
+    <api><![CDATA[PlayerSettings.Metro.compilationOverrides]]></api>
+  </item>
+  <item memberID="PlayerSettings.MetroCompilationOverrides" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="4.2.0">
+    <api><![CDATA[PlayerSettings.MetroCompilationOverrides]]></api>
+  </item>
+  <item memberID="Asset.States" alive="false" type="Enum" isStatic="false" namespace="UnityEditor.VersionControl" versionAdded="4.2.0">
+    <api><![CDATA[Asset.States]]></api>
+  </item>
+  <item memberID="Message.Severity" alive="false" type="Enum" isStatic="false" namespace="UnityEditor.VersionControl" versionAdded="4.2.0">
+    <api><![CDATA[Message.Severity]]></api>
+  </item>
+  <item memberID="ParticleSystem.GetCollisionEvents" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="4.2.0">
+    <api><![CDATA[ParticleSystem.GetCollisionEvents]]></api>
+  </item>
+  <item memberID="BuildTarget.StandaloneOSXPPC" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="4.1.0">
+    <api><![CDATA[BuildTarget.StandaloneOSXPPC]]></api>
+  </item>
+  <item memberID="AssetStoreToolUtils" alive="false" type="Class" isStatic="false" namespace="" versionAdded="4.0.0">
+    <api><![CDATA[AssetStoreToolUtils]]></api>
+  </item>
+  <item memberID="AssetStoreToolUtils.BuildAssetStoreAssetBundle" alive="false" type="Method" isStatic="true" namespace="" versionAdded="4.0.0">
+    <api><![CDATA[AssetStoreToolUtils.BuildAssetStoreAssetBundle]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot3" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="4.0.0">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot3]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot4" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="4.0.0">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot4]]></api>
+  </item>
+  <item memberID="Flash.FlashPlayer" alive="false" type="Class" isStatic="false" namespace="UnityEngine.Flash" versionAdded="4.0.0">
+    <api><![CDATA[Flash.FlashPlayer]]></api>
+  </item>
+  <item memberID="Flash.FlashPlayer.TargetSwfVersion" alive="false" type="Property" isStatic="true" namespace="UnityEngine.Flash" versionAdded="4.0.0">
+    <api><![CDATA[Flash.FlashPlayer.TargetSwfVersion]]></api>
+  </item>
+  <item memberID="Flash.FlashPlayer.TargetVersion" alive="false" type="Property" isStatic="true" namespace="UnityEngine.Flash" versionAdded="4.0.0">
+    <api><![CDATA[Flash.FlashPlayer.TargetVersion]]></api>
+  </item>
+  <item memberID="EditorUserBuildSettings._flashBuildSubtarget" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="3.5.2">
+    <api><![CDATA[EditorUserBuildSettings.flashBuildSubtarget]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="3.5.2">
+    <api><![CDATA[FlashBuildSubtarget]]></api>
+  </item>
+  <item memberID="FlashBuildSubtarget.Flash11dot2" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.5.2">
+    <api><![CDATA[FlashBuildSubtarget.Flash11dot2]]></api>
+  </item>
+  <item memberID="ActionScript.Expression.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ActionScript.Expression.<T>]]></api>
+  </item>
+  <item memberID="IAchievement._completed" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievement.completed]]></api>
+  </item>
+  <item memberID="IAchievement._hidden" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievement.hidden]]></api>
+  </item>
+  <item memberID="IAchievement._id" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievement.id]]></api>
+  </item>
+  <item memberID="IAchievement._lastReportedDate" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievement.lastReportedDate]]></api>
+  </item>
+  <item memberID="IAchievement._percentCompleted" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievement.percentCompleted]]></api>
+  </item>
+  <item memberID="IAchievementDescription._achievedDescription" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.achievedDescription]]></api>
+  </item>
+  <item memberID="IAchievementDescription._hidden" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.hidden]]></api>
+  </item>
+  <item memberID="IAchievementDescription._id" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.id]]></api>
+  </item>
+  <item memberID="IAchievementDescription._image" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.image]]></api>
+  </item>
+  <item memberID="IAchievementDescription._points" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.points]]></api>
+  </item>
+  <item memberID="IAchievementDescription._title" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.title]]></api>
+  </item>
+  <item memberID="IAchievementDescription._unachievedDescription" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IAchievementDescription.unachievedDescription]]></api>
+  </item>
+  <item memberID="ILeaderboard._id" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.id]]></api>
+  </item>
+  <item memberID="ILeaderboard._loading" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.loading]]></api>
+  </item>
+  <item memberID="ILeaderboard._localUserScore" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.localUserScore]]></api>
+  </item>
+  <item memberID="ILeaderboard._maxRange" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.maxRange]]></api>
+  </item>
+  <item memberID="ILeaderboard._range" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.range]]></api>
+  </item>
+  <item memberID="ILeaderboard._scores" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.scores]]></api>
+  </item>
+  <item memberID="ILeaderboard._timeScope" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.timeScope]]></api>
+  </item>
+  <item memberID="ILeaderboard._title" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.title]]></api>
+  </item>
+  <item memberID="ILeaderboard._userScope" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILeaderboard.userScope]]></api>
+  </item>
+  <item memberID="ILocalUser._authenticated" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILocalUser.authenticated]]></api>
+  </item>
+  <item memberID="ILocalUser._friends" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILocalUser.friends]]></api>
+  </item>
+  <item memberID="ILocalUser._underage" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ILocalUser.underage]]></api>
+  </item>
+  <item memberID="IScore._date" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IScore.date]]></api>
+  </item>
+  <item memberID="IScore._formattedValue" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IScore.formattedValue]]></api>
+  </item>
+  <item memberID="IScore._leaderboardID" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IScore.leaderboardID]]></api>
+  </item>
+  <item memberID="IScore._rank" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IScore.rank]]></api>
+  </item>
+  <item memberID="IScore._userID" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IScore.userID]]></api>
+  </item>
+  <item memberID="IScore._value" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IScore.value]]></api>
+  </item>
+  <item memberID="ISocialPlatform._localUser" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[ISocialPlatform.localUser]]></api>
+  </item>
+  <item memberID="IUserProfile._image" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IUserProfile.image]]></api>
+  </item>
+  <item memberID="IUserProfile._isFriend" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IUserProfile.isFriend]]></api>
+  </item>
+  <item memberID="IUserProfile._state" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IUserProfile.state]]></api>
+  </item>
+  <item memberID="IUserProfile._userID" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IUserProfile.userID]]></api>
+  </item>
+  <item memberID="IUserProfile._userName" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[IUserProfile.userName]]></api>
+  </item>
+  <item memberID="Range._count" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[Range.count]]></api>
+  </item>
+  <item memberID="Range._from" alive="false" type="Property" isStatic="false" namespace="" versionAdded="3.5.0">
+    <api><![CDATA[Range.from]]></api>
+  </item>
+  <item memberID="AudioImporter._loadType" alive="false" type="Property" isStatic="false" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[AudioImporter.loadType]]></api>
+  </item>
+  <item memberID="BuildTarget.FlashPlayer" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[BuildTarget.FlashPlayer]]></api>
+  </item>
+  <item memberID="StaticOcclusionCullingMode" alive="false" type="Enum" isStatic="false" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[StaticOcclusionCullingMode]]></api>
+  </item>
+  <item memberID="StaticOcclusionCullingVisualization._occlusionCullingMode" alive="false" type="Property" isStatic="true" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[StaticOcclusionCullingVisualization.occlusionCullingMode]]></api>
+  </item>
+  <item memberID="TextureImporterFormat.ATF_RGB_DXT1" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[TextureImporterFormat.ATF_RGB_DXT1]]></api>
+  </item>
+  <item memberID="TextureImporterFormat.ATF_RGB_JPG" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[TextureImporterFormat.ATF_RGB_JPG]]></api>
+  </item>
+  <item memberID="TextureImporterFormat.ATF_RGBA_JPG" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[TextureImporterFormat.ATF_RGBA_JPG]]></api>
+  </item>
+  <item memberID="Undo.RegisterSetTransformParentUndo" alive="false" type="Method" isStatic="true" namespace="UnityEditor" versionAdded="3.5.0">
+    <api><![CDATA[Undo.RegisterSetTransformParentUndo]]></api>
+  </item>
+  <item memberID="ADBannerView._actionInProgress" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.actionInProgress]]></api>
+  </item>
+  <item memberID="ADBannerView._autoPosition" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.autoPosition]]></api>
+  </item>
+  <item memberID="ADBannerView._autoSize" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.autoSize]]></api>
+  </item>
+  <item memberID="ADBannerView._currentSizeIdentifier" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.currentSizeIdentifier]]></api>
+  </item>
+  <item memberID="ADBannerView._error" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.error]]></api>
+  </item>
+  <item memberID="ADBannerView._requiredSizeIdentifiers" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.requiredSizeIdentifiers]]></api>
+  </item>
+  <item memberID="ADBannerView.CancelAction" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.CancelAction]]></api>
+  </item>
+  <item memberID="ADBannerView.GetSizeFromSizeIdentifier" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.GetSizeFromSizeIdentifier]]></api>
+  </item>
+  <item memberID="ADBannerView.Hide" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.Hide]]></api>
+  </item>
+  <item memberID="ADBannerView.Show" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADBannerView.Show]]></api>
+  </item>
+  <item memberID="ADError" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADError]]></api>
+  </item>
+  <item memberID="ADError._code" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADError.code]]></api>
+  </item>
+  <item memberID="ADError._description" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADError.description]]></api>
+  </item>
+  <item memberID="ADError._reason" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADError.reason]]></api>
+  </item>
+  <item memberID="ADErrorCode" alive="false" type="Enum" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode]]></api>
+  </item>
+  <item memberID="ADErrorCode.ApplicationInactive" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.ApplicationInactive]]></api>
+  </item>
+  <item memberID="ADErrorCode.BannerVisibleWithoutContent" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.BannerVisibleWithoutContent]]></api>
+  </item>
+  <item memberID="ADErrorCode.ConfigurationError" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.ConfigurationError]]></api>
+  </item>
+  <item memberID="ADErrorCode.InventoryUnavailable" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.InventoryUnavailable]]></api>
+  </item>
+  <item memberID="ADErrorCode.LoadingThrottled" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.LoadingThrottled]]></api>
+  </item>
+  <item memberID="ADErrorCode.ServerFailure" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.ServerFailure]]></api>
+  </item>
+  <item memberID="ADErrorCode.Unknown" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADErrorCode.Unknown]]></api>
+  </item>
+  <item memberID="ADInterstitialAd._actionInProgress" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADInterstitialAd.actionInProgress]]></api>
+  </item>
+  <item memberID="ADInterstitialAd._error" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADInterstitialAd.error]]></api>
+  </item>
+  <item memberID="ADInterstitialAd._visible" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADInterstitialAd.visible]]></api>
+  </item>
+  <item memberID="ADInterstitialAd.CancelAction" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADInterstitialAd.CancelAction]]></api>
+  </item>
+  <item memberID="ADInterstitialAd.Present" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADInterstitialAd.Present]]></api>
+  </item>
+  <item memberID="ADPosition" alive="false" type="Enum" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADPosition]]></api>
+  </item>
+  <item memberID="ADPosition.Bottom" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADPosition.Bottom]]></api>
+  </item>
+  <item memberID="ADPosition.Manual" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADPosition.Manual]]></api>
+  </item>
+  <item memberID="ADPosition.Top" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADPosition.Top]]></api>
+  </item>
+  <item memberID="ADSizeIdentifier" alive="false" type="Enum" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADSizeIdentifier]]></api>
+  </item>
+  <item memberID="ADSizeIdentifier.Landscape" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADSizeIdentifier.Landscape]]></api>
+  </item>
+  <item memberID="ADSizeIdentifier.Portrait" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADSizeIdentifier.Portrait]]></api>
+  </item>
+  <item memberID="ADSizeIdentifier.Unknown" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[ADSizeIdentifier.Unknown]]></api>
+  </item>
+  <item memberID="NotificationServices._deviceToken" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.deviceToken]]></api>
+  </item>
+  <item memberID="NotificationServices._enabledRemoteNotificationTypes" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.enabledRemoteNotificationTypes]]></api>
+  </item>
+  <item memberID="NotificationServices._localNotificationCount" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.localNotificationCount]]></api>
+  </item>
+  <item memberID="NotificationServices._localNotifications" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.localNotifications]]></api>
+  </item>
+  <item memberID="NotificationServices._registrationError" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.registrationError]]></api>
+  </item>
+  <item memberID="NotificationServices._remoteNotificationCount" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.remoteNotificationCount]]></api>
+  </item>
+  <item memberID="NotificationServices._remoteNotifications" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.remoteNotifications]]></api>
+  </item>
+  <item memberID="NotificationServices._scheduledLocalNotifications" alive="false" type="Property" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.scheduledLocalNotifications]]></api>
+  </item>
+  <item memberID="NotificationServices.CancelAllLocalNotifications" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.CancelAllLocalNotifications]]></api>
+  </item>
+  <item memberID="NotificationServices.CancelLocalNotification" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.CancelLocalNotification]]></api>
+  </item>
+  <item memberID="NotificationServices.ClearLocalNotifications" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.ClearLocalNotifications]]></api>
+  </item>
+  <item memberID="NotificationServices.ClearRemoteNotifications" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.ClearRemoteNotifications]]></api>
+  </item>
+  <item memberID="NotificationServices.GetLocalNotification" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.GetLocalNotification]]></api>
+  </item>
+  <item memberID="NotificationServices.GetRemoteNotification" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.GetRemoteNotification]]></api>
+  </item>
+  <item memberID="NotificationServices.PresentLocalNotificationNow" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.PresentLocalNotificationNow]]></api>
+  </item>
+  <item memberID="NotificationServices.ScheduleLocalNotification" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.ScheduleLocalNotification]]></api>
+  </item>
+  <item memberID="NotificationServices.UnregisterForRemoteNotifications" alive="false" type="Method" isStatic="true" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[NotificationServices.UnregisterForRemoteNotifications]]></api>
+  </item>
+  <item memberID="TextureFormat.ATF_RGB_DXT1" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[TextureFormat.ATF_RGB_DXT1]]></api>
+  </item>
+  <item memberID="TextureFormat.ATF_RGB_JPG" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[TextureFormat.ATF_RGB_JPG]]></api>
+  </item>
+  <item memberID="TextureFormat.ATF_RGBA_JPG" alive="false" type="EnumValue" isStatic="false" namespace="UnityEngine" versionAdded="3.5.0">
+    <api><![CDATA[TextureFormat.ATF_RGBA_JPG]]></api>
+  </item>
+  <item memberID="Flash.ActionScript" alive="false" type="Class" isStatic="false" namespace="UnityEngine.Flash" versionAdded="3.5.0">
+    <api><![CDATA[Flash.ActionScript]]></api>
+  </item>
+  <item memberID="Flash.ActionScript.Import" alive="false" type="Method" isStatic="true" namespace="UnityEngine.Flash" versionAdded="3.5.0">
+    <api><![CDATA[Flash.ActionScript.Import]]></api>
+  </item>
+  <item memberID="Flash.ActionScript.Statement" alive="false" type="Method" isStatic="true" namespace="UnityEngine.Flash" versionAdded="3.5.0">
+    <api><![CDATA[Flash.ActionScript.Statement]]></api>
+  </item>
+  <item memberID="BuildTargetGroup.FlashPlayer" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.4.0">
+    <api><![CDATA[BuildTargetGroup.FlashPlayer]]></api>
+  </item>
+  <item memberID="AndroidJavaObject.Call.&lt;ReturnType&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJavaObject.Call.<ReturnType>]]></api>
+  </item>
+  <item memberID="AndroidJavaObject.CallStatic.&lt;ReturnType&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJavaObject.CallStatic.<ReturnType>]]></api>
+  </item>
+  <item memberID="AndroidJavaObject.Get.&lt;FieldType&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJavaObject.Get.<FieldType>]]></api>
+  </item>
+  <item memberID="AndroidJavaObject.GetStatic.&lt;FieldType&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJavaObject.GetStatic.<FieldType>]]></api>
+  </item>
+  <item memberID="AndroidJavaObject.Set.&lt;FieldType&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJavaObject.Set.<FieldType>]]></api>
+  </item>
+  <item memberID="AndroidJavaObject.SetStatic.&lt;FieldType&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJavaObject.SetStatic.<FieldType>]]></api>
+  </item>
+  <item memberID="AndroidJNIHelper.ConvertFromJNIArray.&lt;ArrayType&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJNIHelper.ConvertFromJNIArray.<ArrayType>]]></api>
+  </item>
+  <item memberID="AndroidJNIHelper.GetFieldID.&lt;FieldType&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJNIHelper.GetFieldID.<FieldType>]]></api>
+  </item>
+  <item memberID="AndroidJNIHelper.GetMethodID.&lt;ReturnType&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJNIHelper.GetMethodID.<ReturnType>]]></api>
+  </item>
+  <item memberID="AndroidJNIHelper.GetSignature.&lt;ReturnType&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[AndroidJNIHelper.GetSignature.<ReturnType>]]></api>
+  </item>
+  <item memberID="Component.GetComponent.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[Component.GetComponent.<T>]]></api>
+  </item>
+  <item memberID="Component.GetComponentInChildren.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[Component.GetComponentInChildren.<T>]]></api>
+  </item>
+  <item memberID="Component.GetComponents.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[Component.GetComponents.<T>]]></api>
+  </item>
+  <item memberID="Component.GetComponentsInChildren.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[Component.GetComponentsInChildren.<T>]]></api>
+  </item>
+  <item memberID="EditorWindow.FocusWindowIfItsOpen.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[EditorWindow.FocusWindowIfItsOpen.<T>]]></api>
+  </item>
+  <item memberID="EditorWindow.GetWindow.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[EditorWindow.GetWindow.<T>]]></api>
+  </item>
+  <item memberID="EditorWindow.GetWindowWithRect.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[EditorWindow.GetWindowWithRect.<T>]]></api>
+  </item>
+  <item memberID="GameObject.AddComponent.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[GameObject.AddComponent.<T>]]></api>
+  </item>
+  <item memberID="GameObject.GetComponent.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[GameObject.GetComponent.<T>]]></api>
+  </item>
+  <item memberID="GameObject.GetComponentInChildren.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[GameObject.GetComponentInChildren.<T>]]></api>
+  </item>
+  <item memberID="GameObject.GetComponents.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[GameObject.GetComponents.<T>]]></api>
+  </item>
+  <item memberID="GameObject.GetComponentsInChildren.&lt;T&gt;" alive="false" type="Method" isStatic="false" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[GameObject.GetComponentsInChildren.<T>]]></api>
+  </item>
+  <item memberID="Object.Instantiate.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[Object.Instantiate.<T>]]></api>
+  </item>
+  <item memberID="ScriptableObject.CreateInstance.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[ScriptableObject.CreateInstance.<T>]]></api>
+  </item>
+  <item memberID="ScriptableWizard.DisplayWizard.&lt;T&gt;" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.3.0">
+    <api><![CDATA[ScriptableWizard.DisplayWizard.<T>]]></api>
+  </item>
+  <item memberID="AndroidSdkVersions.AndroidApiLevel6" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.3.0">
+    <api><![CDATA[AndroidSdkVersions.AndroidApiLevel6]]></api>
+  </item>
+  <item memberID="AndroidSdkVersions.AndroidApiLevel7" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.3.0">
+    <api><![CDATA[AndroidSdkVersions.AndroidApiLevel7]]></api>
+  </item>
+  <item memberID="AndroidSdkVersions.AndroidApiLevel8" alive="false" type="EnumValue" isStatic="false" namespace="UnityEditor" versionAdded="3.3.0">
+    <api><![CDATA[AndroidSdkVersions.AndroidApiLevel8]]></api>
+  </item>
+  <item memberID="AssetStore" alive="false" type="Class" isStatic="false" namespace="" versionAdded="3.2.0">
+    <api><![CDATA[AssetStore]]></api>
+  </item>
+  <item memberID="AssetStore.Open" alive="false" type="Method" isStatic="true" namespace="" versionAdded="3.2.0">
+    <api><![CDATA[AssetStore.Open]]></api>
+  </item>
+  <item memberID="ClothRenderer" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[ClothRenderer]]></api>
+  </item>
+  <item memberID="ClothRenderer._pauseWhenNotVisible" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[ClothRenderer.pauseWhenNotVisible]]></api>
+  </item>
+  <item memberID="ClothSkinningCoefficient._collisionSphereRadius" alive="false" type="Field" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[ClothSkinningCoefficient.collisionSphereRadius]]></api>
+  </item>
+  <item memberID="ClothSkinningCoefficient._maxDistanceBias" alive="false" type="Field" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[ClothSkinningCoefficient.maxDistanceBias]]></api>
+  </item>
+  <item memberID="InteractiveCloth" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth]]></api>
+  </item>
+  <item memberID="InteractiveCloth._attachmentResponse" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.attachmentResponse]]></api>
+  </item>
+  <item memberID="InteractiveCloth._attachmentTearFactor" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.attachmentTearFactor]]></api>
+  </item>
+  <item memberID="InteractiveCloth._collisionResponse" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.collisionResponse]]></api>
+  </item>
+  <item memberID="InteractiveCloth._density" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.density]]></api>
+  </item>
+  <item memberID="InteractiveCloth._friction" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.friction]]></api>
+  </item>
+  <item memberID="InteractiveCloth._isTeared" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.isTeared]]></api>
+  </item>
+  <item memberID="InteractiveCloth._mesh" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.mesh]]></api>
+  </item>
+  <item memberID="InteractiveCloth._pressure" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.pressure]]></api>
+  </item>
+  <item memberID="InteractiveCloth._tearFactor" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.tearFactor]]></api>
+  </item>
+  <item memberID="InteractiveCloth.AddForceAtPosition" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.AddForceAtPosition]]></api>
+  </item>
+  <item memberID="InteractiveCloth.AttachToCollider" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.AttachToCollider]]></api>
+  </item>
+  <item memberID="InteractiveCloth.DetachFromCollider" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[InteractiveCloth.DetachFromCollider]]></api>
+  </item>
+  <item memberID="SkinnedCloth" alive="false" type="Class" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[SkinnedCloth]]></api>
+  </item>
+  <item memberID="SkinnedCloth._coefficients" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[SkinnedCloth.coefficients]]></api>
+  </item>
+  <item memberID="SkinnedCloth._worldAccelerationScale" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[SkinnedCloth.worldAccelerationScale]]></api>
+  </item>
+  <item memberID="SkinnedCloth._worldVelocityScale" alive="false" type="Property" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[SkinnedCloth.worldVelocityScale]]></api>
+  </item>
+  <item memberID="SkinnedCloth.SetEnabledFading" alive="false" type="Method" isStatic="false" namespace="UnityEngine" versionAdded="3.0.0">
+    <api><![CDATA[SkinnedCloth.SetEnabledFading]]></api>
+  </item>
+  <item memberID="AudioImporter._format" alive="false" type="Property" isStatic="false" namespace="UnityEditor" versionAdded="2.x.x">
+    <api><![CDATA[AudioImporter.format]]></api>
+  </item>
+  <item memberID="Array.Reverse" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x">
+    <api><![CDATA[Array.Reverse]]></api>
+  </item>
+  <item memberID="MonoBehaviour.OnLevelWasLoaded" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x">
+    <api><![CDATA[MonoBehaviour.OnLevelWasLoaded]]></api>
+  </item>
+  <item memberID="ScriptableWizard.OnDrawGizmos" alive="false" type="Method" isStatic="false" namespace="" versionAdded="1.x.x">
+    <api><![CDATA[ScriptableWizard.OnDrawGizmos]]></api>
+  </item>
+  <item memberID="String._string" alive="false" type="Property" isStatic="false" namespace="" versionAdded="1.x.x">
+    <api><![CDATA[String.string]]></api>
+  </item>
+  <website_terms>
+    <unity_tech>Unity Technologies</unity_tech>
+    <overview>Overview</overview>
+    <manual>Manual</manual>
+    <scripting_api>Scripting API</scripting_api>
+    <learn>Learn</learn>
+    <tutorials>Tutorials</tutorials>
+    <tutorials_url>https://unity3d.com/learn</tutorials_url>
+    <live_training>Live Training</live_training>
+    <premium_support>Premium Support</premium_support>
+    <community>Community</community>
+    <forums>Forums</forums>
+    <forums_url>https://forum.unity3d.com</forums_url>
+    <answers>Answers</answers>
+    <issuetracker>Issue Tracker</issuetracker>
+    <issuetracker_url>https://issuetracker.unity3d.com</issuetracker_url>
+    <issuetracker_title>issuetracker.unity3d.com</issuetracker_title>
+    <known_issues>Is something described here not working as you expect it to? It might be a <b>Known Issue</b>. Please check with the Issue Tracker at </known_issues>
+    <unity_manual>Unity Manual</unity_manual>
+    <unity_dash_manual>Unity - Manual</unity_dash_manual>
+    <full_table_of_contents>Full table of contents</full_table_of_contents>
+    <copyright>Copyright © 2018 Unity Technologies</copyright>
+    <unity>Unity</unity>
+    <gallery>Gallery</gallery>
+    <asset_store>Asset Store</asset_store>
+    <assetstore_url>https://unity3d.com/asset-store</assetstore_url>
+    <buy>Buy</buy>
+    <download>Download</download>
+    <knowledgebase>Knowledge Base</knowledgebase>
+    <knowledgebase_url>https://support.unity3d.com/hc/en-us</knowledgebase_url>
+    <community_answers>Community Answers</community_answers>
+    <community_answers_url>https://answers.unity3d.com</community_answers_url>
+    <download>Download</download>
+    <language>Language</language>
+    <previous>Previous</previous>
+    <next>Next</next>
+    <script_language>Script language</script_language>
+    <script_language_body>Select your preferred scripting language. All code snippets will be displayed in this language.</script_language_body>
+    <history>History</history>
+    <inherits_from>Inherits from:</inherits_from>
+    <implemented_in>Implemented in:</implemented_in>
+    <implements_interfaces>Implements interfaces:</implements_interfaces>
+    <suggest_a_change>Suggest a change</suggest_a_change>
+    <suggest_success>Success!</suggest_success>
+    <suggest_success_body>Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable.</suggest_success_body>
+    <suggest_clone>Close</suggest_clone>
+    <suggest_failed>Submission failed</suggest_failed>
+    <suggest_failed_body>For some reason your suggested change could not be submitted. Please &lt;a&gt;try again&lt;/a&gt; in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation.</suggest_failed_body>
+    <suggest_name>Your name</suggest_name>
+    <suggest_email>Your email</suggest_email>
+    <suggest_body>Suggestion</suggest_body>
+    <suggest_submit>Submit suggestion</suggest_submit>
+    <suggest_cancel>Cancel</suggest_cancel>
+    <parameters>Parameters</parameters>
+    <returns>Returns</returns>
+    <description>Description</description>
+    <static_variables>Static Properties</static_variables>
+    <variables>Properties</variables>
+    <constructors>Constructors</constructors>
+    <public_functions>Public Methods</public_functions>
+    <protected_functions>Protected Methods</protected_functions>
+    <static_functions>Static Methods</static_functions>
+    <operators>Operators</operators>
+    <messages>Messages</messages>
+    <delegates>Delegates</delegates>
+    <events>Events</events>
+    <inherited_members>Inherited Members</inherited_members>
+    <structs>Structs</structs>
+    <intro>Welcome to the Unity Scripting Reference!</intro>
+    <intro_body_1>This section of the documentation contains details of the scripting API that Unity provides. To use this information, you should be familiar with the basic theory and practice of scripting in Unity which is explained in the &lt;a href="../Manual/ScriptingSection.html"&gt;Scripting section&lt;/a&gt; of our manual.</intro_body_1>
+    <intro_body_2>The scripting reference is organised according to the classes available to scripts which are described along with their methods, properties and any other information relevant to their use.</intro_body_2>
+    <intro_body_3>The pages are extensively furnished with example code ("examples"); notwithstanding anything in the &lt;a href="https://unity3d.com/legal"&gt;Terms of Service&lt;/a&gt; to the contrary, Unity grants you a non-exclusive, non-transferable, non-sublicensable, royalty-free license to access, to use, to modify, and to distribute the examples without crediting Unity.</intro_body_3>
+    <intro_body_4>API are grouped by namespaces they belong to, and can be selected from the sidebar to the left. For most users, the &lt;b&gt;UnityEngine&lt;/b&gt; section will be the main port of call.</intro_body_4>
+    <classes>Classes</classes>
+    <enumerations>Enumerations</enumerations>
+    <attributes>Attributes</attributes>
+    <api_histroy>API History</api_histroy>
+    <api_histroy_body>Overview of additions to (and removals from) Unity's scripting API in each version.</api_histroy_body>
+    <api_histroy_name>Name</api_histroy_name>
+    <api_histroy_type>Type</api_histroy_type>
+    <api_histroy_namespace>Namespace</api_histroy_namespace>
+    <api_histroy_status>Status</api_histroy_status>
+    <api_histroy_version>Version</api_histroy_version>
+    <api_histroy_added>added</api_histroy_added>
+    <api_histroy_obsolete>obsolete</api_histroy_obsolete>
+    <api_histroy_removed>removed</api_histroy_removed>
+    <rate_content>Did you find this page useful? Please give it a rating:</rate_content>
+    <rate_thanks>Thanks for rating this page!</rate_thanks>
+    <report_problem>Report a problem on this page</report_problem>
+    <problem_type>What kind of problem would you like to report?</problem_type>
+    <problem_needcode>This page needs code samples</problem_needcode>
+    <problem_code>Code samples do not work</problem_code>
+    <problem_missing>Information is missing</problem_missing>
+    <problem_incorrect>Information is incorrect</problem_incorrect>
+    <problem_unclear>Information is unclear or confusing</problem_unclear>
+    <problem_language>There is a spelling/grammar error on this page</problem_language>
+    <problem_other>Something else</problem_other>
+    <problem_thanks>Thanks for letting us know! This page has been marked for review based on your feedback.</problem_thanks>
+    <problem_more_info>If you have time, you can provide more information to help us fix the problem faster.</problem_more_info>
+    <problem_more_info_link>Provide more information</problem_more_info_link>
+    <problem_needcode_form_description>You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</problem_needcode_form_description>
+    <problem_code_form_description>You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</problem_code_form_description>
+    <problem_missing_form_description>You've told us there is information missing from this page. Please tell us more about what's missing:</problem_missing_form_description>
+    <problem_incorrect_form_description>You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</problem_incorrect_form_description>
+    <problem_unclear_form_description>You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</problem_unclear_form_description>
+    <problem_language_form_description>You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</problem_language_form_description>
+    <problem_other_form_description>You've told us this page has a problem. Please tell us more about what's wrong:</problem_other_form_description>
+    <problem_more_info_thanks>Thanks for helping to make the Unity documentation better!</problem_more_info_thanks>
+    <leave_feedback>Leave feedback</leave_feedback>
+  </website_terms>
+</items>

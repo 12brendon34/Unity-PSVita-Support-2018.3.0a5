@@ -1,0 +1,100 @@
+{
+    "link": "UnityManual",
+    "children": [
+        {
+            "link": "UnityManual",
+            "children": null,
+            "title": "Unity User Manual (2018.2 beta)",
+            "module": 0
+        },
+        {
+            "link": "PlatformSpecific",
+            "children": [
+                {
+                    "link": "psvita",
+                    "children": [
+                        {
+                            "link": "psvita-gettingstarted",
+                            "children": [
+                                {
+                                    "link": "PSVitaSetup",
+                                    "children": null,
+                                    "title": "PS Vita Setup",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaProjectStructure",
+                                    "children": null,
+                                    "title": "PS Vita Project Structure",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaBuilding",
+                                    "children": null,
+                                    "title": "PS Vita Building and Running",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaTipsForMaximizingAvailableMemory",
+                                    "children": null,
+                                    "title": "PS Vita Tips for Maximizing Available Memory",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaDebuggingACrash",
+                                    "children": null,
+                                    "title": "PS Vita: Debugging a crash",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaProfiling",
+                                    "children": null,
+                                    "title": "PS Vita Profiling",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaProjectSettings",
+                                    "children": null,
+                                    "title": "PS Vita Project Settings",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaStrippingLevels",
+                                    "children": null,
+                                    "title": "PS Vita Stripping Levels",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaInput",
+                                    "children": null,
+                                    "title": "PS Vita Input",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaAdditionalPackages",
+                                    "children": null,
+                                    "title": "PS Vita Additional Packages",
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVitaVideoPlayback",
+                                    "children": null,
+                                    "title": "PS Vita Video Playback",
+                                    "module": 0
+                                }
+                            ],
+                            "title": "PS Vita Getting Started",
+                            "module": 0
+                        }
+                    ],
+                    "title": "PS Vita",
+                    "module": 0
+                }
+            ],
+            "title": "Platform-specific",
+            "module": 0
+        }
+    ],
+    "title": "Unity User Manual (2018.2 beta)",
+    "module": 0
+}

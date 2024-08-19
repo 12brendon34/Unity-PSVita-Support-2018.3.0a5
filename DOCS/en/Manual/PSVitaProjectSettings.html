@@ -1,0 +1,627 @@
+<!DOCTYPE html><html lang="en" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-MC35ML');</script><script src="https://store.unity.com/themes/contrib/unity_base/js/unity-cdp.js"></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unity - Manual: PS Vita Project Settings</title>
+<meta property="og:image" content="https://unity3d.com/files/images/ogimg.jpg">
+<meta name="author" content="Unity Technologies">
+<link rel="shortcut icon" href="../StaticFilesManual/images/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="../StaticFilesManual/images/favicons/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../StaticFilesManual/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../StaticFilesManual/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../StaticFilesManual/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../StaticFilesManual/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../StaticFilesManual/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" href="../StaticFilesManual/images/favicons/apple-touch-icon.png">
+<meta name="msapplication-TileColor" content="#222c37">
+<meta name="msapplication-TileImage" content="../StaticFilesManual/images/favicons/tileicon-144x144.png">
+<script type="text/javascript" src="../StaticFilesManual/js/jquery.js?ts=1528816934"></script><script type="text/javascript" src="../StaticFilesManual/js/core.js?ts=1528816934"></script><script type="text/javascript" src="docdata/toc.js?ts=1528816934"></script><script type="text/javascript" src="docdata/global_toc.js?ts=1528816934"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../StaticFilesManual/css/core.css?ts=1528816934">
+<link rel="stylesheet" href="../StaticFilesManual/js/feedback/five-star-rating-master/css/rating.min.css">
+<script src="../StaticFilesManual/js/feedback/five-star-rating-master/js/src/rating.js"></script>
+</head>
+<body>
+<div id="DocsAnalyticsData" data-area="PlatformSpecific" data-pagetype="normal"></div>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC35ML" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="header-wrapper">
+<div id="header" class="header"><div class="content">
+<div class="spacer"><div class="menu">
+<div class="logo"><a href="https://docs.unity3d.com"></a></div>
+<div class="search-form"><form action="30_search.html" method="get" class="apisearch">
+<input type="text" name="q" placeholder="Search manual..." autosave="Unity Reference" results="5" class="sbox field" id="q"><input type="submit" class="submit">
+</form></div>
+<ul>
+<li><a href="../Manual/index.html" class="selected">Manual</a></li>
+<li><a href="../ScriptReference/index.html">Scripting API</a></li>
+</ul>
+</div></div>
+<div class="more">
+<div class="filler"></div>
+<ul><li><a href="https://unity3d.com/">unity3d.com</a></li></ul>
+</div>
+</div></div>
+<div class="toolbar"><div class="content">
+<div class="version-number">Version: <b>2018.2b</b> (<a href="https://docs.unity3d.com/2018.1/Documentation/Manual">switch to 2018.1</a>)</div>
+<div class="lang-switcher">
+<div class="current toggle" data-target=".lang-list">
+<div class="lbl">Language: <span class="b">English</span>
+</div>
+<div class="arrow"></div>
+</div>
+<div class="lang-list" style="display:none;"><ul>
+<li><a href="/Manual/PSVitaProjectSettings.html">English</a></li>
+<li><a href="/ja/current/Manual/PSVitaProjectSettings.html">日本語</a></li>
+<li><a href="/es/current/Manual/PSVitaProjectSettings.html">Español</a></li>
+<li><a href="/kr/current/Manual/PSVitaProjectSettings.html">한국어</a></li>
+<li><a href="/ru/current/Manual/PSVitaProjectSettings.html">Русский</a></li>
+</ul></div>
+</div>
+</div></div>
+</div>
+<div id="master-wrapper" class="master-wrapper clear">
+<div id="sidebar" class="sidebar"><div class="sidebar-wrap"><div class="content"><div class="sidebar-menu"><div class="toc"><h2>Unity Manual</h2></div></div></div></div></div>
+<div id="content-wrap" class="content-wrap"><div class="content-block"><div class="content">
+<div class="section">
+<div class="breadcrumbs clear"><ul>
+<li><a href="UnityManual.html">Unity User Manual (2018.2 beta)</a></li>
+<li><a href="PlatformSpecific.html">Platform-specific</a></li>
+<li><a href="psvita.html">PS Vita</a></li>
+<li><a href="psvita-gettingstarted.html">PS Vita Getting Started</a></li>
+<li>PS Vita Project Settings</li>
+</ul></div>
+<div class="mb20"><div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="PSVitaProfiling.html"></a></span><div class="tip">PS Vita Profiling</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="PSVitaStrippingLevels.html"></a></span><div class="tip">PS Vita Stripping Levels</div>
+</div>
+</div></div>
+<div class="otherversionswrapper" onmouseover="setOtherVersionsDisplay(true)" onmouseout="setOtherVersionsDisplay(false)">
+<a>Other Versions</a><div class="otherversionscontent" id="OtherVersionsContent" style="display: none;">Cannot access other versions offline!</div>
+</div>
+<div class="scrollToFeedback"><a id="scrollToFeedback">Leave feedback</a></div>
+<h1>PS Vita Project Settings</h1>
+<!--BeginSwitchLink--><!--EndSwitchLink-->
+<div class="clear"></div>
+
+<p>Unity for PSVita comes with additional project settings.</p>
+
+<p>Build Settings: General</p>
+
+<ul>
+<li>Build Type</li>
+</ul>
+
+<p>Player Settings:</p>
+
+<ul>
+<li>Icon</li>
+<li>Splash Image</li>
+<li>Other Settings</li>
+</ul>
+
+<p>Player Settings: Publishing Settings</p>
+
+<ul>
+<li>Default Live Area</li>
+<li>Custom Live Area</li>
+<li>Software Manual</li>
+<li>Package Parameters</li>
+<li>Digital Rights Management</li>
+<li>Media Type &amp; Size</li>
+<li>Playstation(R)Network</li>
+</ul>
+
+<hr>
+
+<h2>Build Settings</h2>
+
+<h3>Build Type</h3>
+
+<p><strong>PC Hosted</strong></p>
+
+<ul>
+<li>Creates a package to be launched from the PC.</li>
+<li>Option to link with development player (for player connection, profiler and full TTY output).</li>
+<li>Autoconnect Profiler option.</li>
+<li>Explicit Null Checks option to enable reporting of null references in the TTY.</li>
+</ul>
+
+<p><strong>PSVita Package</strong></p>
+
+<ul>
+<li>Creates a package to be launched on the target device.</li>
+<li>Option to link with development player ( for player connection, profiler and full TTY output).</li>
+<li>Submission Materials option (only available if ‘Development Build’ is NOT enabled). Outputs materials required when submitting a package to SCE.</li>
+<li>Autoconnect Profiler option (only available if ‘Development Build’ is enabled).</li>
+<li>Explicit Null Checks option to enable reporting of null references in the TTY.</li>
+</ul>
+
+<h2>Player Settings</h2>
+
+<h3>Icon</h3>
+
+<p>The Icon (Override for PSP2) option should be ticked in order to add a Still Image icon. This icon is used on the PSVita Home screen.</p>
+
+<p><em>Image Format</em></p>
+
+<ul>
+<li>128x128 pixels in size</li>
+<li>PNG</li>
+</ul>
+
+<p>More information on the Still Image Icon can be found at <a href="https://psvita.scedev.net/docs/vita-en,Content_Information-Specifications-vita,Still_Image_Icon/1/">https://psvita.scedev.net/docs/vita-en,Content_Information-Specifications-vita,Still_Image_Icon/1/</a>.</p>
+
+<h3>Splash Image</h3>
+
+<p>The Splash Image or Start-up Image will immediately display when the gate is tapped from LiveArea.</p>
+
+<p><em>Image Format</em></p>
+
+<ul>
+<li>940x544 pixels in size</li>
+<li>PNG</li>
+</ul>
+
+<p>More information on the Start-up image can be found at <a href="https://psvita.scedev.net/docs/vita-en,Content_Information-Specifications-vita,Start-up_Image/1/">https://psvita.scedev.net/docs/vita-en,Content_Information-Specifications-vita,Start-up_Image/1/</a>
+</p>
+
+<h3>Other Settings</h3>
+
+<p><strong>Rendering</strong></p>
+
+<p><em>Static Batching</em></p>
+
+<ul>
+<li>Static batching allows the engine to reduce draw calls for geometry of any size (provided it does not move and shares the same material). Static batching is significantly more efficient than dynamic batching. You should choose static batching as it will require less CPU power.</li>
+</ul>
+
+<p><em>Dynamic Batching</em></p>
+
+<ul>
+<li>Unity can automatically batch moving objects into the same draw call if they share the same material and fulfill other criteria. Dynamic batching is done automatically and does not require any additional effort on your side.</li>
+</ul>
+
+<p>The benefits of static and dynamic batching can vary greatly from game to game. General information and tips on using Static and Dynamic batching is available <a href="DrawCallBatching.html">here</a>.</p>
+
+<p><em>GPU Skinning</em></p>
+
+<ul>
+<li>Uses SX11/ES3 GPU Skinning to greatly increase the rendering speed of skinned meshes.</li>
+</ul>
+
+<p><strong>Configuration</strong></p>
+
+<p><em>Power Mode</em></p>
+
+<ul>
+<li>Controls the GPU Clock frequency
+
+<ul>
+<li>Mode A (Normal)</li>
+<li>Mode B (GPU High - No WLAN or COM)</li>
+<li>Mode C (GPU High - No Camera, OLED Low brightness)</li>
+</ul>
+</li>
+</ul>
+
+<p>More information can be found at <a href="https://psvita.scedev.net/docs/vita-en,Power-Overview-vita,Power_Configuration_Control/1/">https://psvita.scedev.net/docs/vita-en,Power-Overview-vita,Power_Configuration_Control/1/</a>
+</p>
+
+<p><em>Override PSVita Music</em></p>
+
+<ul>
+<li>Acquires the PS Vita’s BMG port pausing any background music which might be playing</li>
+</ul>
+
+<p><strong>Optimization</strong></p>
+
+<p><em>API Compatibility Level</em></p>
+
+<ul>
+<li>.NET 2.0
+
+<ul>
+<li>This is close to the full .NET 2.0 API and offers the best compatibility with pre-existing .NET code. Application’s build size and startup time may be relatively poor.</li>
+</ul>
+</li>
+<li>.NET 2.0 Subset
+
+<ul>
+<li>This is close to the Mono “monotouch” profile. The advantage of using this profile is reduced build size (and startup time) but this comes at the expense of compatibility with existing .NET code.</li>
+</ul>
+</li>
+</ul>
+
+<p>Note that .Net 2.0 subset has limited compatibility with other libraries. More information can be found at <a href="http://docs.xamarin.com/guides/ios/advanced_topics/limitations/">http://docs.xamarin.com/guides/ios/advanced_topics/limitations/</a> </p>
+
+<p><em>AOT Compilation Options</em></p>
+
+<ul>
+<li>Allows you to set compilation options for the mono Ahead Of Time compiler.</li>
+</ul>
+
+<p><em>Stripping Level</em></p>
+
+<ul>
+<li>Setting a Stripping Level in the Player Settings can potentially reduce your game’s memory footprint quite considerably. The options are:
+
+<ul>
+<li>Disabled</li>
+<li>Strip Assemblies</li>
+<li>Stip ByteCode</li>
+<li>Use micro mscorlib</li>
+</ul>
+</li>
+</ul>
+
+<p>These optimisation levels are cumulative, so level 3 optimisation implicitly includes levels 2 and 1, while level 2 optimization includes level 1.</p>
+
+<p>See the <a href="PSVitaStrippingLevels.html">PSVita Stripping Levels</a> page for detailed information.</p>
+
+<p><em>Optimize Mesh Data</em></p>
+
+<ul>
+<li>Remove unused mesh components</li>
+</ul>
+
+<p><em>Mesh Video Mem</em></p>
+
+<ul>
+<li>How many megabytes of video memory to use for mesh data before we use main memory. Typically this option is left at 0 but if you find you are running short of system memory it can be useful to increase this number.</li>
+</ul>
+
+<p>You can use the “Mesh Video Mem” option to set aside an area of CDRAM (also referred to as VRAM) that Unity will use in preference to mapped main memory when allocating memory for mesh data, once this area is full mesh data is allocated in main memory. The option’s primary purpose is to ease the pressure on main memory for games which have a large memory requirement and are struggling to fit.</p>
+
+<p>CDRAM is also used for render targets and textures so setting aside an area for mesh data reduces the number of textures that can go in CDRAM so you need to decide on a sensible budget depending on how much memory is left once textures and render targets are accounted for. When running development builds the amount of available CDRAM is displayed in the TTY as “[vram avail KB / KB]” so you can use that as a guide to decide how much can be set aside for mesh data. Once CDRAM is full textures are allocated in main system memory but it’s best to try and avoid this situation.</p>
+
+<h2>Publishing Settings</h2>
+
+<p><strong>Live Area</strong></p>
+
+<p>LiveArea is an area provided for each game which optionally enables the enjoyment of a game to be shared among users, thereby facilitating more active communication. The default LiveArea allows you to implement a very basic LiveArea, providing only a background image and gate image used to launch your game.</p>
+
+<p>PNG is the only image format that is supported in the current version. Indexing (color reduced) is recommended.</p>
+
+<p><em>Background</em></p>
+
+<ul>
+<li>840x500 pixels in size</li>
+<li>8bit</li>
+</ul>
+
+<p><em>Gate Image</em></p>
+
+<ul>
+<li>280x158 pixels in size</li>
+</ul>
+
+<p><strong>Custom Live Area</strong></p>
+
+<p>For a more involved user experience Unity allows you to customise LiveArea with your own images and content.</p>
+
+<p><em>Live Area folder</em></p>
+
+<ul>
+<li>Specify a folder within the project assets folder that contains your Live Area data</li>
+<li>Note that use of a Custom Live Area will override settings in the Default LiveArea section.</li>
+</ul>
+
+<p>The LiveArea Editor tool can be used to create your LiveArea data. The LiveArea Editor is a Windows tools that allows you to use a GUI to create or edit the XML describing the screen configuration of contents information zone of LiveArea. This tool is included in the PS Vita SDK.</p>
+
+<p>Detailed information on LiveArea is available at <a href="https://psvita.scedev.net/docs/livareastarting/1/">https://psvita.scedev.net/docs/livareastarting/1/</a> and information on Content Information Zone XML can be found at <a href="https://psvita.scedev.net/docs/vita-en,LiveArea-Specifications-vita,Content_Information_Zone_XML_Specifications">https://psvita.scedev.net/docs/vita-en,LiveArea-Specifications-vita,Content_Information_Zone_XML_Specifications</a>.
+.</p>
+
+<p><strong>Software Manual</strong></p>
+
+<p><em>Manual folder</em></p>
+
+<ul>
+<li>Specify a folder within the project assets folder that contains your application manual</li>
+</ul>
+
+<p>The software manual consists of a series of PNG images that are displayed when the user views the software manual.</p>
+
+<p>Information on software manual image specifications can be found here::
+<a href="https://psvita.scedev.net/docs/vita-en,Content_Information-Specifications-vita,Software_Manual/1/">https://psvita.scedev.net/docs/vita-en,Content_Information-Specifications-vita,Software_Manual/1/</a>.</p>
+
+<h3>Param File</h3>
+
+<p><em>Category</em></p>
+
+<ul>
+<li>PS Vita Application</li>
+<li>PS Vita Application Patch</li>
+</ul>
+
+<p><em>Master Version</em></p>
+
+<ul>
+<li>The Master Version is the submission version of a product, for each re-submission to SCE the master version would be incremented, i.e. 01.00, 01.01, etc.</li>
+</ul>
+
+<p><em>Application Version</em></p>
+
+<ul>
+<li>The Application Version is used for patch updates, when you first submit your application this would be 01.00, for each patch update you would increment this, i.e. 0.1.00, 0.1.01, etc.</li>
+</ul>
+
+<p><em>Content ID</em></p>
+
+<ul>
+<li>Packages are distinguished by ContentIDs. View <code>%SCE_ROOT_DIR%\PSP2\Tools\Publishing Tools\help\Publishing_Tools-Overview_e.pdf</code> for more information.</li>
+</ul>
+
+<p><em>Title</em></p>
+
+<ul>
+<li>This title is displayed in the Activities section, as well as in all social communications.</li>
+</ul>
+
+<p><em>Short Title</em></p>
+
+<ul>
+<li>The short title is displayed under your game icon on the Home Screen.</li>
+</ul>
+
+<p><em>Save data quota (KB)</em></p>
+
+<ul>
+<li>Specifies the maximum amount of save game data that can be saved to the Vita.</li>
+</ul>
+
+<p><em>Parental Level (0–11)</em></p>
+
+<ul>
+<li>Set the parental control level. Note that the lower the number, the tighter the restriction.</li>
+</ul>
+
+<p><em>Allow Twitter Dialog</em></p>
+
+<ul>
+<li>If your application supports posting to Twitter you need to tick this option.</li>
+</ul>
+
+<p><em>Vita TV, disable Touch Panel Emulation by L3/R3 Buttons</em></p>
+
+<ul>
+<li>Disables touch panel emulation.</li>
+</ul>
+
+<p><em>Vita TV Boot Mode</em></p>
+
+<ul>
+<li>Default (Managed by System Software (SCEE or SCA)</li>
+<li>PS Vita Bootable, PS Vita TV Bootable (SCEJ or SCE Asia)</li>
+<li>PS Vita Bootable, PS Vita TV Not Bootable (SCEJ or SCE Asia)</li>
+</ul>
+
+<p><em>Memory Expansion Mode</em></p>
+
+<p>The memory size of the main memory’s physical memory to be used by the application can be expanded by setting a Memory Mode. </p>
+
+<p>Available modes include:</p>
+
+<ul>
+<li>29MiB - Only this app can be run</li>
+<li>77MiB - Only this app can be run, the internet browser cannot be used</li>
+<li>109MiB - Only this app can be run, the internet browser and title store cannot be used</li>
+</ul>
+
+<p>The option for Memory Expansion Mode is available in the player settings in the Param File section.</p>
+
+<p>This setting cannot be changed dynamically.</p>
+
+<p>Detailed informaiton on Memory Expansion Mode can be found in the SDK documentation at <a href="https://psvita.scedev.net/docs/vita-en,Programming-Startup_Guide-vita,Resources_that_Can_Be_Used_by_an_Application/1/">https://psvita.scedev.net/docs/vita-en,Programming-Startup_Guide-vita,Resources_that_Can_Be_Used_by_an_Application/1/</a>
+</p>
+
+<p><em>Param File (param.sfx)</em></p>
+
+<ul>
+<li>The location of your self-made param.sfx file, if a file is specified here then the contents of the param.sfx file will override all of the above package parameter settings. This can be useful if you plan to submit your application in multiple territories which require slightly different parameters.</li>
+</ul>
+
+<p>More information about creating parameter files can be found at <code>%SCE_ROOT_DIR%\PSP2\Tools\Publishing Tools\help\Param_File_Editor-Users_Guide_e.pdf</code> and <code>%SCE_ROOT_DIR%\PSP2\Tools\Publishing Tools\help\Publishing_Tools-Overview_e.pdf</code>
+</p>
+
+<p><strong>Package</strong></p>
+
+<p><em>Password (32 chars)</em></p>
+
+<ul>
+<li>A passcode is randomly generated by the Unity Editor, you can use your own if you prefer. The Playstation(R)Vita requests the passcode when reading installed components to prevent unauthorised reads for other installed applications.</li>
+</ul>
+
+<p>
+<em>Cumulative Patch</em>
+It is possible to build a patch package using the Cumulative Patch settings.</p>
+
+<p><em>Change Info Folder</em></p>
+
+<ul>
+<li>Path to your ‘Change Info’ XML file</li>
+</ul>
+
+<p><em>First Published Package</em></p>
+
+<ul>
+<li>Path to the initial version/package of your game. This must be the package that was first submitted and accepted by SCE.</li>
+</ul>
+
+<p>More information on cumulative patch can be found at <a href="https://psvita.scedev.net/docs/vita-en,Patch-Overview-vita,PlayStationregVita_Patch_System/1/">https://psvita.scedev.net/docs/vita-en,Patch-Overview-vita,PlayStationregVita_Patch_System/1/</a>.</p>
+
+<p><strong>Digital Rights Management</strong></p>
+
+<p>DRM content is a product provided in the form of downloadable software. The DRM Type allows you to choose the type of DRM (Digital Rights Management) protection for your package.</p>
+
+<ul>
+<li>DRM Type
+
+<ul>
+<li>Paid-for content (Local)</li>
+<li>Free content (Free)</li>
+</ul>
+</li>
+</ul>
+
+<p>Information on DRM content can be found at <a href="https://psvita.scedev.net/docs/vita-en,NP_Commerce-Overview-vita,Products/1/">https://psvita.scedev.net/docs/vita-en,NP_Commerce-Overview-vita,Products/1/</a>.</p>
+
+<p><strong>Media Type &amp; Size</strong></p>
+
+<p><em>Storage Type</em></p>
+
+<ul>
+<li>No VC/MC-MC
+
+<ul>
+<li>This application is not distributed by PS Vita card(VC)</li>
+<li>This application is distributed by network and installed on to memory card(MC)</li>
+</ul>
+</li>
+<li>VC-VC
+
+<ul>
+<li>This application is distributed by PS Vita card(VC)</li>
+<li>This application may be distributed by network and installed on to memory card(MC)</li>
+<li>In case of VC Distribution - the VC has rewritable(R/W) area, and Patches/Additional Contents/Save Data are stored on R/W area of the VC. MC is not required to run this application</li>
+<li>VC-MC</li>
+</ul>
+</li>
+</ul>
+
+<p>Information on the types of Package Configuration / Storage Types is available at <a href="https://psvita.scedev.net/docs/vita-en,Development_Process-Overview-vita,Application_Package_Configuration/1/">https://psvita.scedev.net/docs/vita-en,Development_Process-Overview-vita,Application_Package_Configuration/1/</a>.</p>
+
+<p><em>Media Capacity</em></p>
+
+<ul>
+<li>Selectable VC-VC Capacities
+
+<ul>
+<li>VC 2GB (R\O:1312Mib, R\W:480Mib)</li>
+<li>VC 2GB (R\O:1504Mib, R\W:288Mib)</li>
+<li>VC 2GB (R\O:1696Mib, R\W:96Mib)</li>
+<li>VC 2GB (R\O:2624Mib, R\W:960Mib)</li>
+<li>VC 2GB (R\O:3008Mib, R\W:576Mib)</li>
+<li>VC 2GB (R\O:3392Mib, R\W:192Mib)</li>
+</ul>
+</li>
+<li>Selectable VC-MC Capacities
+
+<ul>
+<li>VC 2GB (R\O:1792Mib, R\W:On MC)</li>
+<li>VC 2GB (R\O:3584Mib, R\W:On MC)</li>
+</ul>
+</li>
+</ul>
+
+<p><strong>Playstation(R)Network</strong></p>
+
+<p>Supports Game Boot Message and/or Game Joining Presence</p>
+
+<ul>
+<li>Note that you must set the NP Communications ID (see below)</li>
+</ul>
+
+<p><em>Trophy Pack</em></p>
+
+<ul>
+<li>Specify the location of your trophy pack file (*.trp)</li>
+</ul>
+
+<p>Note that you must set the NP Communications ID in Player Settings and that must match the NP Communications ID specified in the trophy pack.</p>
+
+<p>The Trophy Pack File Utility can be used to create and modify your trophy pack. The Trophy Pack File Utility is a Windows application that comes with the PS Vita SDK.</p>
+
+<p>More information on trophy packs and creating trophy packs can be found at: <a href="https://psvita.scedev.net/docs/vita-en,Trophy_System-Overview-vita,Designing_the_Trophy_Set/1/">https://psvita.scedev.net/docs/vita-en,Trophy_System-Overview-vita,Designing_the_Trophy_Set/1/</a> and <a href="https://psvita.scedev.net/docs/vita-en,Trophy_System-Overview-vita,Trophy_Configuration_Data/1/">https://psvita.scedev.net/docs/vita-en,Trophy_System-Overview-vita,Trophy_Configuration_Data/1/</a> and <code>%SCE_ROOT_DIR%\PSP2\Tools\Publishing Tools\help\Trophy_Pack_File_Utility-Users_Guide_e.pdf</code>
+</p>
+
+<p><em>NP Communication ID</em></p>
+
+<ul>
+<li>An NP Communication ID can be requested for, and issued, per application via the PlayStation(R)Vita Developer Network</li>
+</ul>
+
+<p><em>NP Communication Passphrase</em></p>
+
+<ul>
+<li>Enter the NP Communication Passphrase provided by via the PlayStation(R)Vita Developer Network</li>
+</ul>
+
+<p><em>NP Communication Signature</em></p>
+
+<ul>
+<li>Enter the NP Communication Signature provided by via the PlayStation(R)Vita Developer Network</li>
+</ul>
+
+<p>The Unity Vita Add-on includes a package called <code>[PSVita Samples]NP Toolkit.unitypackage</code> that contains a native plugin and managed assembly that provides a scripting interface to the Playstation Network services along with example scripts.</p>
+<div class="feedbackbox" id="feedbackbox">
+<div id="rating"><p>Did you find this page useful? Please give it a rating:<br><div id="ratecontent" class="c-rating"></div>
+</p></div>
+<div id="ratingThanks" style="display:none"><p>Thanks for rating this page!</p></div>
+<div id="problem"><p><a name="problem" onclick="document.getElementById('problemType').style.display = '';document.getElementById('problem').style.display = 'none';">Report a problem on this page</a></p></div>
+<div id="problemType" style="display:none"><p>What kind of problem would you like to report?<ul type="problems">
+<li><a name="needcode" onclick="                                                             document.getElementById('problemType').style.display = 'none';                                                             document.getElementById('problemThanks').style.display = '';                                                             SendFeedback('problem-needcode',window.location.href,0);                                                             document.getElementById('problemFormDescription').value='Needs code samples.';                                                             document.getElementById('problemNeedCodeForm').style.display = ''                                                         ">This page needs code samples</a></li>
+<li><a name="code" onclick="document.getElementById('problemType').style.display = 'none';                                                         document.getElementById('problemThanks').style.display = '';                                                         SendFeedback('problem-brokencode',window.location.href,0);                                                         document.getElementById('problemFormDescription').value='Code samples do not work.';                                                         document.getElementById('problemCodeForm').style.display = ''                                                         ">Code samples do not work</a></li>
+<li><a name="missing" onclick="document.getElementById('problemType').style.display = 'none';                                                         document.getElementById('problemThanks').style.display = '';                                                         SendFeedback('problem-missing',window.location.href,0);                                                         document.getElementById('problemFormDescription').value='Missing information';                                                         document.getElementById('problemMissingForm').style.display = ''                                                         ">Information is missing</a></li>
+<li><a name="incorrect" onclick="document.getElementById('problemType').style.display = 'none';                                                         document.getElementById('problemThanks').style.display = '';                                                         SendFeedback('problem-incorrect',window.location.href,0);                                                         document.getElementById('problemFormDescription').value='Incorrect information';                                                         document.getElementById('problemIncorrectForm').style.display = ''                                                         ">Information is incorrect</a></li>
+<li><a name="unclear" onclick="document.getElementById('problemType').style.display = 'none';                                                         document.getElementById('problemThanks').style.display = '';                                                         SendFeedback('problem-unclear',window.location.href,0);                                                         document.getElementById('problemFormDescription').value='Unclear or confusing information';                                                         document.getElementById('problemUnclearForm').style.display = ''                                                         ">Information is unclear or confusing</a></li>
+<li><a name="language" onclick="document.getElementById('problemType').style.display = 'none';                                                         document.getElementById('problemThanks').style.display = '';                                                         SendFeedback('problem-language',window.location.href,0);                                                         document.getElementById('problemFormDescription').value='Spelling or grammar error';                                                         document.getElementById('problemLanguageForm').style.display = ''                                                         ">There is a spelling/grammar error on this page</a></li>
+<li><a name="other" onclick="document.getElementById('problemType').style.display = 'none';                                                         document.getElementById('problemThanks').style.display = '';                                                         SendFeedback('problem-other',window.location.href,0);                                                         document.getElementById('problemFormDescription').value='This page has a problem';                                                         document.getElementById('problemOtherForm').style.display = ''                                                         ">Something else</a></li>
+</ul>
+<p><known_issues><p>Is something described here not working as you expect it to? It might be a <b>Known Issue</b>. Please check with the Issue Tracker at <a href="https://issuetracker.unity3d.com">issuetracker.unity3d.com</a>.</p></known_issues></p>
+</p></div>
+<div id="problemThanks" style="display:none"><p>Thanks for letting us know! This page has been marked for review based on your feedback.<br><br>If you have time, you can provide more information to help us fix the problem faster.<br><br><a onclick="document.getElementById('problemMoreInfo').style.display = '';document.getElementById('problemThanks').style.display = 'none';">Provide more information</a><br>
+</p></div>
+<div id="problemMoreInfo" style="display:none">
+<p id="problemNeedCodeForm" style="display:none">You've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:</p>
+<p id="problemCodeForm" style="display:none">You've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:</p>
+<p id="problemMissingForm" style="display:none">You've told us there is information missing from this page. Please tell us more about what's missing:</p>
+<p id="problemIncorrectForm" style="display:none">You've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:</p>
+<p id="problemUnclearForm" style="display:none">You've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:</p>
+<p id="problemLanguageForm" style="display:none">You've told us there is a spelling or grammar error on this page. Please tell us what's wrong:</p>
+<p id="problemOtherForm" style="display:none">You've told us this page has a problem. Please tell us more about what's wrong:</p>
+<form>
+<textarea id="problemFormSuggestionField" cols="40" rows="5"></textarea><input type="hidden" id="problemFormDescription"><input type="submit" id="problemFormDescriptionSubmit" value="Submit" onclick="                                             document.getElementById('problemMoreInfo').style.display = 'none';                                             document.getElementById('problemMoreInfoThanks').style.display = '';                                             return false;                                             ">
+</form>
+</div>
+<div id="problemMoreInfoThanks" style="display:none"><p>Thanks for helping to make the Unity documentation better!</p></div>
+<script>
+
+                                            var ratecontent = document.querySelector('#ratecontent'); // target element
+                                            var currentRating = 0; // initial rating
+                                            var maxRating= 5; // max rating
+
+                                            // callback to run after setting the rating
+                                            var callback = function(rating) {
+                                                document.getElementById('ratingThanks').style.display = '';
+                                                document.getElementById('ratecontent').style.display = 'none';
+                                                document.getElementById('rating').style.display = 'none';
+                                                SendFeedback("rating",window.location.href,rating);
+                                            };
+
+                                            // rating instance
+                                            var myRating = rating(ratecontent, currentRating, maxRating, callback);
+                                        </script>
+</div>
+<div class="nextprev clear">
+<div class="icon tt left mr1" data-distance="-40|-30|top">
+<span class="prev"><a href="PSVitaProfiling.html"></a></span><div class="tip">PS Vita Profiling</div>
+</div>
+<div class="icon tt right" data-distance="-40|-30|top">
+<span class="next"><a href="PSVitaStrippingLevels.html"></a></span><div class="tip">PS Vita Stripping Levels</div>
+</div>
+</div>
+</div>
+<div class="footer-wrapper"><div class="footer clear">
+<div class="copy">Copyright © 2018 Unity Technologies. Publication: 2018.2b-002A. Built: 2018-04-04.</div>
+<div class="menu">
+<a href="https://unity3d.com/learn">Tutorials</a><a href="https://answers.unity3d.com">Community Answers</a><a href="https://support.unity3d.com/hc/en-us">Knowledge Base</a><a href="https://forum.unity3d.com">Forums</a><a href="https://unity3d.com/asset-store">Asset Store</a>
+</div>
+</div></div>
+</div></div></div>
+</div>
+</body>
+</html>

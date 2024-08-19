@@ -1,0 +1,286 @@
+{
+    "link": "toc",
+    "title": "toc",
+    "children": [
+        {
+            "link": "null",
+            "title": "UnityEngine",
+            "children": [
+                {
+                    "link": "null",
+                    "title": "UnityEngine.PSVita",
+                    "children": [
+                        {
+                            "link": "null",
+                            "title": "Classes",
+                            "children": [
+                                {
+                                    "link": "PSVita.Diagnostics",
+                                    "title": "Diagnostics",
+                                    "children": null,
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.Networking",
+                                    "title": "Networking",
+                                    "children": null,
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.PSVitaCamera",
+                                    "title": "PSVitaCamera",
+                                    "children": [
+                                        {
+                                            "link": "null",
+                                            "title": "Enumerations",
+                                            "children": [
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.AntiFlicker",
+                                                    "title": "AntiFlicker",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.CameraFormat",
+                                                    "title": "CameraFormat",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.Device",
+                                                    "title": "Device",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.Effect",
+                                                    "title": "Effect",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.EV",
+                                                    "title": "EV",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.ExposureCeiling",
+                                                    "title": "ExposureCeiling",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.ISO",
+                                                    "title": "ISO",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.Nightmode",
+                                                    "title": "Nightmode",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.Reverse",
+                                                    "title": "Reverse",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.Saturation",
+                                                    "title": "Saturation",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.Sharpness",
+                                                    "title": "Sharpness",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.ShutterSound",
+                                                    "title": "ShutterSound",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaCamera.WhiteBalance",
+                                                    "title": "WhiteBalance",
+                                                    "children": null,
+                                                    "module": 0
+                                                }
+                                            ],
+                                            "module": 0
+                                        }
+                                    ],
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.PSVitaDRM",
+                                    "title": "PSVitaDRM",
+                                    "children": [
+                                        {
+                                            "link": "null",
+                                            "title": "Classes",
+                                            "children": [
+                                                {
+                                                    "link": "PSVita.PSVitaDRM.DrmContentFinder",
+                                                    "title": "DrmContentFinder",
+                                                    "children": null,
+                                                    "module": 0
+                                                }
+                                            ],
+                                            "module": 0
+                                        }
+                                    ],
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.PSVitaInput",
+                                    "title": "PSVitaInput",
+                                    "children": [
+                                        {
+                                            "link": "null",
+                                            "title": "Enumerations",
+                                            "children": [
+                                                {
+                                                    "link": "PSVita.PSVitaInput.CompassStability",
+                                                    "title": "CompassStability",
+                                                    "children": null,
+                                                    "module": 0
+                                                }
+                                            ],
+                                            "module": 0
+                                        }
+                                    ],
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.PSVitaPlayerPrefs",
+                                    "title": "PSVitaPlayerPrefs",
+                                    "children": null,
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.PSVitaVideoPlayer",
+                                    "title": "PSVitaVideoPlayer",
+                                    "children": [
+                                        {
+                                            "link": "null",
+                                            "title": "Classes",
+                                            "children": [
+                                                {
+                                                    "link": "PSVita.PSVitaVideoPlayer.PlayParams",
+                                                    "title": "PlayParams",
+                                                    "children": null,
+                                                    "module": 0
+                                                }
+                                            ],
+                                            "module": 0
+                                        },
+                                        {
+                                            "link": "null",
+                                            "title": "Enumerations",
+                                            "children": [
+                                                {
+                                                    "link": "PSVita.PSVitaVideoPlayer.Looping",
+                                                    "title": "Looping",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaVideoPlayer.Mode",
+                                                    "title": "Mode",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaVideoPlayer.MovieEvent",
+                                                    "title": "MovieEvent",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.PSVitaVideoPlayer.TrickSpeeds",
+                                                    "title": "TrickSpeeds",
+                                                    "children": null,
+                                                    "module": 0
+                                                }
+                                            ],
+                                            "module": 0
+                                        }
+                                    ],
+                                    "module": 0
+                                },
+                                {
+                                    "link": "PSVita.Utility",
+                                    "title": "Utility",
+                                    "children": [
+                                        {
+                                            "link": "null",
+                                            "title": "Enumerations",
+                                            "children": [
+                                                {
+                                                    "link": "PSVita.Utility.MountableContent",
+                                                    "title": "MountableContent",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.Utility.PowerTickType",
+                                                    "title": "PowerTickType",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.Utility.SkuFlags",
+                                                    "title": "SkuFlags",
+                                                    "children": null,
+                                                    "module": 0
+                                                },
+                                                {
+                                                    "link": "PSVita.Utility.SystemLanguage",
+                                                    "title": "SystemLanguage",
+                                                    "children": null,
+                                                    "module": 0
+                                                }
+                                            ],
+                                            "module": 0
+                                        }
+                                    ],
+                                    "module": 0
+                                }
+                            ],
+                            "module": 0
+                        }
+                    ],
+                    "module": 0
+                },
+                {
+                    "link": "null",
+                    "title": "Assemblies",
+                    "children": [
+                        {
+                            "link": "UnityEngine.PSVitaModule",
+                            "title": "UnityEngine.PSVitaModule",
+                            "children": null,
+                            "module": 0
+                        }
+                    ],
+                    "module": 0
+                }
+            ],
+            "module": 0
+        },
+        {
+            "link": "null",
+            "title": "Other",
+            "children": null,
+            "module": 0
+        }
+    ],
+    "module": 0
+}

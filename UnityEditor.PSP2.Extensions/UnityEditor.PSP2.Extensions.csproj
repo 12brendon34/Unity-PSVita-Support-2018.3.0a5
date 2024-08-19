@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2105CD55-11C9-4B53-B10E-574DA57EC6E7}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>UnityEditor.PSP2.Extensions</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UnityEditor\PSP2SettingsEditorExtension.cs" />
+    <Compile Include="UnityEditor\PSP2\ExternalTool.cs" />
+    <Compile Include="UnityEditor\PSP2\Il2Cpp\PSP2Il2CppNativeCodeBuilder.cs" />
+    <Compile Include="UnityEditor\PSP2\Il2Cpp\PSP2Il2CppPlatformProvider.cs" />
+    <Compile Include="UnityEditor\PSP2\MemCardStatus.cs" />
+    <Compile Include="UnityEditor\PSP2\ParamFile.cs" />
+    <Compile Include="UnityEditor\PSP2\PostProcessPSP2Player.cs" />
+    <Compile Include="UnityEditor\PSP2\PSP2BuildPostprocessor.cs" />
+    <Compile Include="UnityEditor\PSP2\PSP2BuildWindowExtension.cs" />
+    <Compile Include="UnityEditor\PSP2\PSP2ScriptingImplementations.cs" />
+    <Compile Include="UnityEditor\PSP2\SUPRXTools.cs" />
+    <Compile Include="UnityEditor\PSP2\TargetExtension.cs" />
+    <Compile Include="UnityEditor\PSP2\VitaPowerStatus.cs" />
+    <Compile Include="UnityEditor\PSP2\VitaSDKTools.cs" />
+    <Compile Include="UnityEditor\SonyCommon\ParamFile.cs" />
+    <Compile Include="UnityEditor\SonyCommon\VSTools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

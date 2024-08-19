@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0">
+  <info version="2018.3.0" organisation="Unity" module="PSP2" e:packageType="PlaybackEngine" e:unityVersion="2018.3.0a2" xmlns:e="http://ant.apache.org/ivy/extra" />
+  <publications xmlns:e="http://ant.apache.org/ivy/extra">
+    <artifact name="UnityEditor.PSP2.Extensions" type="dll" ext="dll" />
+  </publications>
+</ivy-module>

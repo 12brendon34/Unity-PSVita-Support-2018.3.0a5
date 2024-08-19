@@ -1,0 +1,3 @@
+#include <moduleinfo.h>
+
+SCE_MODULE_INFO(LIBIL2CPP_PRX, SCE_MODULE_ATTR_NONE, 1, 1);

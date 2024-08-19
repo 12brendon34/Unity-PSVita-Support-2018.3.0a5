@@ -1,0 +1,1 @@
+#define setlocale(a, b)
