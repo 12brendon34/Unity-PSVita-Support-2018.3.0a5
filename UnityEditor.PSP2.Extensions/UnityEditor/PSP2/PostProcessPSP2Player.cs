@@ -838,18 +838,31 @@ namespace UnityEditor.PSP2
 		{
 			Console.WriteLine(">>> BuildIL2CPPScript: scriptOnly=" + scriptOnly + ", stagingAreaData=" + stagingAreaData + ", stagingArea=" + stagingArea + ", stagingAreaDataManaged=" + stagingAreaDataManaged + ", playerPackage=" + playerPackage);
 			string path = "..\\..\\..";
+
+			string currentDirectory = Directory.GetCurrentDirectory();
+			UnityEngine.Debug.Log("Current working directory: " + currentDirectory);
+			UnityEngine.Debug.Log("Application.dataPath directory: " + Application.dataPath);
+
+
 			string workingDirectory = "temp\\stagingarea\\data\\MiscCPP";
 			string text = Path.Combine(path, "ApplicationInfo.o");
+
+			UnityEngine.Debug.Log("ApplicationInfo.o Path: " + text);
+			UnityEngine.Debug.Log("VitaSDKTools.CompileCppFile working directory: " + workingDirectory);
+
+
+
+
 			string input = "ApplicationInfo.cpp";
 			CopyModules(stagingAreaData, playerPackage);
 
 			DateTime yourBirthday = new DateTime(DateTime.Today.Year, 8, 8);
-            if (System.DateTime.Today == yourBirthday)
+			if (System.DateTime.Today == yourBirthday)
 			{
-                UnityEngine.Debug.Log("12brendon34 was here");
-            }
+				UnityEngine.Debug.Log("12brendon34 was here");
+			}
 
-            if (!VitaSDKTools.CompileCppFile(input, text, workingDirectory))
+			if (!VitaSDKTools.CompileCppFile(input, text, workingDirectory))
 			{
 				return false;
 			}

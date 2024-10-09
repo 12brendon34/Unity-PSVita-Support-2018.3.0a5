@@ -259,7 +259,49 @@ namespace UnityEditor
 		{
 			if (PlayerSettings.GetScriptingBackend(BuildTargetGroup.PSP2) == ScriptingImplementation.IL2CPP)
 			{
-				EditorGUILayout.IntPopup(m_PSP2ScriptOptimizationLevel, kIL2CPPOptimizationLevelNames, kIL2CPPOptimizationLevelVals, EditorGUIUtility.TrTextContent("IL2CPP optimization level"));
+				if (PlayerSettings.scriptingRuntimeVersion == ScriptingRuntimeVersion.Legacy)
+				{
+					//I beleve that Optimized Compile wt Unused code removed works on net 3.5
+					EditorGUILayout.IntPopup(m_PSP2ScriptOptimizationLevel, kIL2CPPOptimizationLevelNames, kIL2CPPOptimizationLevelVals, EditorGUIUtility.TrTextContent("IL2CPP optimization level"));
+				}
+				else
+				{
+					//IL2CPP Issue, Removing this option should at least prevent this from happening to others
+					//This also happens on 2018.3.0a2
+
+					int[] IL2CPPOptimizationLevelVals = new int[2] { 0, 1 };
+
+					GUIContent[] IL2CPPOptimizationLevelNames = new GUIContent[2]
+					{
+						kIL2CPPOptimizationLevelNames[0],  // "No Optimization"
+						kIL2CPPOptimizationLevelNames[1]   // "Optimized Compile"
+						//removed third entry
+					};
+
+					EditorGUILayout.IntPopup(m_PSP2ScriptOptimizationLevel, IL2CPPOptimizationLevelNames, IL2CPPOptimizationLevelVals, EditorGUIUtility.TrTextContent("IL2CPP optimization level"));
+
+					/*
+					psp2ld 3.50.0.1954 (rel,TR,3.15,linker,common,src @253247 x64) C:\Users\Brendon\Desktop\Unity\SDK\Sony\PsVita\PSVitaSDK_Envirement\PSVITA\sdk\host_tools\build\bin\psp2ld.exe
+					Command line : error: L0039: reference to undefined symbol `[local to ThreadPool_cpp]::il2cpp::vm::FreeThreadHandle(void*)' in file "/prx_data_object/"
+					Unknown source file(1) : error: L0073: reference to undefined symbol `[local to ThreadPool_cpp]::il2cpp::vm::FreeThreadHandle(void*)' in file "/prx_data_object/" (total of 1 references)
+
+
+					at Unity.IL2CPP.Building.CppProgramBuilder.PostprocessObjectFiles(HashSet`1 objectFiles, CppToolChainContext toolChainContext)
+					at Unity.IL2CPP.Building.CppProgramBuilder.Build(IBuildStatistics& statistics)
+					at il2cpp.Program.DoRun(String[] args)
+					at il2cpp.Program.Run(String[] args)
+					at il2cpp.Program.Main(String[] args)
+
+					UnityEngine.Debug:LogError(Object)
+					UnityEditorInternal.Runner:RunProgram(Program, String, String, String, CompilerOutputParserBase) (at C:/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildUtils.cs:128)
+					UnityEditorInternal.Runner:RunManagedProgram(String, String, String, CompilerOutputParserBase, Action`1) (at C:/buildslave/unity/build/Editor/Mono/BuildPipeline/BuildUtils.cs:73)
+					UnityEditorInternal.IL2CPPBuilder:RunIl2CppWithArguments(List`1, Action`1, String) (at C:/buildslave/unity/build/Editor/Mono/BuildPipeline/Il2Cpp/IL2CPPUtils.cs:355)
+					UnityEditorInternal.IL2CPPBuilder:ConvertPlayerDlltoCpp(String, String, String, Boolean) (at C:/buildslave/unity/build/Editor/Mono/BuildPipeline/Il2Cpp/IL2CPPUtils.cs:336)
+					UnityEditorInternal.IL2CPPBuilder:Run() (at C:/buildslave/unity/build/Editor/Mono/BuildPipeline/Il2Cpp/IL2CPPUtils.cs:180)
+					UnityEditorInternal.IL2CPPUtils:RunIl2Cpp(String, String, IIl2CppPlatformProvider, Action`1, RuntimeClassRegistry) (at C:/buildslave/unity/build/Editor/Mono/BuildPipeline/Il2Cpp/IL2CPPUtils.cs:35)
+					UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+					*/
+				}
 			}
 			EditorGUILayout.IntPopup(m_PSP2PowerMode, kPowerModeNames, kPowerModeVals, EditorGUIUtility.TrTextContent("Power Mode"));
 			EditorGUILayout.PropertyField(m_PSP2AcquireBGM, EditorGUIUtility.TrTextContent("Override PS Vita Music", "Acquires the PS Vita's BGM port pausing any background music which might be playing."));

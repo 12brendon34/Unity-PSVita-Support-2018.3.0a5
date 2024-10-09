@@ -42,10 +42,10 @@ namespace UnityEditor.PSP2.Il2Cpp
 				{
 					text += "--strip-unused-data --strip-duplicates ";
 					Debug.Log(text);
-                }
-                Debug.Log(text + m_extraLinkerOptions);
-                return text + m_extraLinkerOptions;
-            }
+				}
+				Debug.Log(text + m_extraLinkerOptions);
+				return text + m_extraLinkerOptions;
+			}
 		}
 
 		public override string PluginPath => Path.Combine(BuildPipeline.GetBuildToolsDirectory(BuildTarget.PSP2).Replace('/', '\\'), "PSP2Il2CppPlugin.dll");
