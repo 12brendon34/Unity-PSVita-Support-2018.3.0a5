@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.PSVitaModule", "UnityEngine.PSVitaModule\UnityEngine.PSVitaModule.csproj", "{8C9D5E81-D50C-4E72-BD73-306D7073383D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine", "UnityEngine\UnityEngine.csproj", "{F19E0224-D51F-4DDB-A731-6F63C4EEF8AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9D5E81-D50C-4E72-BD73-306D7073383D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9D5E81-D50C-4E72-BD73-306D7073383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9D5E81-D50C-4E72-BD73-306D7073383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9D5E81-D50C-4E72-BD73-306D7073383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19E0224-D51F-4DDB-A731-6F63C4EEF8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19E0224-D51F-4DDB-A731-6F63C4EEF8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19E0224-D51F-4DDB-A731-6F63C4EEF8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19E0224-D51F-4DDB-A731-6F63C4EEF8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {447E595A-33C1-4B92-84B2-29C6FEA7D0DA}
+	EndGlobalSection
+EndGlobal

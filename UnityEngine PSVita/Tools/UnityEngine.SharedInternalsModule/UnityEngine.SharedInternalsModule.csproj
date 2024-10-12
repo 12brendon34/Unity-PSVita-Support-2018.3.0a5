@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{BC8DCB6A-1550-4906-BACB-4306B094B649}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>6</LangVersion>
+    <AssemblyName>UnityEngine.SharedInternalsModule</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnityEngine\AssetFileNameExtensionAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\CodegenOptions.cs" />
+    <Compile Include="UnityEngine\Bindings\FreeFunctionAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsGenerateMarshallingTypeAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsHeaderProviderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsIsFreeFunctionProviderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsIsThreadSafeProviderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsNameProviderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsThrowsProviderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IBindingsWritableSelfProviderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\IgnoreAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\MarshalUnityObjectAs.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeAsStructAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeConditionalAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeHeaderAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeMethodAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeNameAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativePropertyAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeThrowsAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeTypeAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NativeWritableSelfAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\NotNullAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\StaticAccessorAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\StaticAccessorType.cs" />
+    <Compile Include="UnityEngine\Bindings\TargetType.cs" />
+    <Compile Include="UnityEngine\Bindings\ThreadSafeAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\UnmarshalledAttribute.cs" />
+    <Compile Include="UnityEngine\Bindings\VisibleToOtherModulesAttribute.cs" />
+    <Compile Include="UnityEngine\IL2CPPStructAlignmentAttribute.cs" />
+    <Compile Include="UnityEngine\NativeClassAttribute.cs" />
+    <Compile Include="UnityEngine\RejectDragAndDropMaterial.cs" />
+    <Compile Include="UnityEngine\Scripting\GeneratedByOldBindingsGeneratorAttribute.cs" />
+    <Compile Include="UnityEngine\Scripting\RequiredByNativeCodeAttribute.cs" />
+    <Compile Include="UnityEngine\Scripting\UsedByNativeCodeAttribute.cs" />
+    <Compile Include="UnityEngine\ThreadAndSerializationSafeAttribute.cs" />
+    <Compile Include="UnityEngine\UnityEngineModuleAssembly.cs" />
+    <Compile Include="UnityEngine\UnityString.cs" />
+    <Compile Include="UnityEngine\WritableAttribute.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

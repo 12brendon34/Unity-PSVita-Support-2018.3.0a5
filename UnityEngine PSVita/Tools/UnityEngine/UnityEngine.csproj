@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{F19E0224-D51F-4DDB-A731-6F63C4EEF8AB}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>6</LangVersion>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0a5\Editor\Data\PlaybackEngines\windowsstandalonesupport\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnityEngine\ProceduralCacheSize.cs" />
+    <Compile Include="UnityEngine\ProceduralLoadingBehavior.cs" />
+    <Compile Include="UnityEngine\ProceduralMaterial.cs" />
+    <Compile Include="UnityEngine\ProceduralOutputType.cs" />
+    <Compile Include="UnityEngine\ProceduralProcessorUsage.cs" />
+    <Compile Include="UnityEngine\ProceduralPropertyDescription.cs" />
+    <Compile Include="UnityEngine\ProceduralPropertyType.cs" />
+    <Compile Include="UnityEngine\ProceduralTexture.cs" />
+    <Compile Include="UnityEngine\VR\InputTracking.cs" />
+    <Compile Include="UnityEngine\VR\TrackingSpaceType.cs" />
+    <Compile Include="UnityEngine\VR\UserPresenceState.cs" />
+    <Compile Include="UnityEngine\VR\VRDevice.cs" />
+    <Compile Include="UnityEngine\VR\VRDeviceType.cs" />
+    <Compile Include="UnityEngine\VR\VRNode.cs" />
+    <Compile Include="UnityEngine\VR\VRNodeState.cs" />
+    <Compile Include="UnityEngine\VR\VRSettings.cs" />
+    <Compile Include="UnityEngine\VR\VRStats.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnityEngine.PSVitaModule\UnityEngine.PSVitaModule.csproj">
+      <Project>{8c9d5e81-d50c-4e72-bd73-306d7073383d}</Project>
+      <Name>UnityEngine.PSVitaModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
